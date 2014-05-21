@@ -1,0 +1,708 @@
+[1400540400] LOG ROTATION: DAILY
+[1400540400] LOG VERSION: 2.0
+[1400540400] CURRENT HOST STATE: 84.203.208.42;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: 84.203.208.43;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: api.clickatell.com;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: asterisk.int.mttnow.com;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: b2b.easyjet.com;UP;HARD;1;HTTP WARNING: HTTP/1.1 400 Bad Request
+[1400540400] CURRENT HOST STATE: bcd.mttnow.com;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: eleventh-hour.com;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: helpdesk.mttnow.com;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: latam.mttnow.com;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.62 ms
+[1400540400] CURRENT HOST STATE: m.abacus.com.sg;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: m.atlantisthepalm.com;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: m.easyjet.com;UP;HARD;1;HTTP OK - HTTP/1.1 302 Found - 0.259 second response time
+[1400540400] CURRENT HOST STATE: m.flybe.com;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: m.jumeirah.com;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: m.transavia.com;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: mobile.jetstar.com;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 197.26 ms
+[1400540400] CURRENT HOST STATE: s1-sc5-b-euw;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: s1.jq.mttnow.com;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: s2-sc5-c-euw;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: s2.jq.mttnow.com;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: security.mttnow.com;UP;HARD;1;
+[1400540400] CURRENT HOST STATE: www.mttnow.com;UP;HARD;1;
+[1400540400] CURRENT SERVICE STATE: 84.203.208.42;RBL Check;OK;HARD;1;CHECK_RBL OK - 84.203.208.42 BLACKLISTED on 0 servers of 41
+[1400540400] CURRENT SERVICE STATE: 84.203.208.43;RBL Check;OK;HARD;1;CHECK_RBL OK -  (1 server timed out: access.redhawk.org)
+[1400540400] CURRENT SERVICE STATE: api.clickatell.com;HTTPS;OK;HARD;1;HTTP OK HTTP/1.1 200 OK - 147 bytes in 1.235 seconds
+[1400540400] CURRENT SERVICE STATE: asterisk.int.mttnow.com;Asterisk Trunk Reg Failure;OK;HARD;1;TCP OK - 0.793 second response time on port 7080
+[1400540400] CURRENT SERVICE STATE: b2b.easyjet.com;HTTP;OK;HARD;1;WebInject OK - All tests passed successfully in 0.382 seconds
+[1400540400] CURRENT SERVICE STATE: b2b.easyjet.com;HTTPS;OK;HARD;1;HTTP OK HTTP/1.1 200 OK - 3328 bytes in 0.634 seconds
+[1400540400] CURRENT SERVICE STATE: b2b.easyjet.com;Login Request;OK;HARD;1;WebInject OK - All tests passed successfully in 0.831 seconds
+[1400540400] CURRENT SERVICE STATE: b2b.easyjet.com;SSL Cert;OK;HARD;1;OK: certificate expires in 839 days (Mon Sep  5 00:59:59 2016)
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;APP - Component Check - ELB;OK;HARD;1;WebInject OK - All tests passed successfully in 1.304 seconds
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;OK;HARD;1;WebInject OK - All tests passed successfully in 1.223 seconds
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;APP - Component Check - s2-sc2-d-use;OK;HARD;1;WebInject OK - All tests passed successfully in 1.199 seconds
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;APP - Elasticsearch Status;OK;HARD;1;OK: status is green
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;OK;HARD;1;OK: Value is 239.000
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;APP - Last Registration - s2-sc2-d-use;OK;HARD;1;OK: Value is 8.000
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;APP - Registrations per hour - ELB;OK;HARD;1;OK: Value is 109.000
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;Disk / - adb1-c-use;OK;HARD;1;DISK OK - free space: / 6145 MB (76% inode=92%):
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;Disk / - adb2-d-use;OK;HARD;1;DISK OK - free space: / 6145 MB (76% inode=92%):
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;Disk / - pms-a-use;OK;HARD;1;DISK OK - free space: / 5693 MB (71% inode=91%):
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;Disk / - s1-sc1-c-use;OK;HARD;1;DISK OK - free space: / 4061 MB (50% inode=75%):
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;Disk / - s2-sc2-d-use;OK;HARD;1;DISK OK - free space: / 4095 MB (51% inode=75%):
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;Disk / - sms1-c-use;OK;HARD;1;DISK OK - free space: / 5698 MB (71% inode=91%):
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;Disk / - sms2-d-use;OK;HARD;1;DISK OK - free space: / 5698 MB (71% inode=91%):
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;Disk /var - adb1-c-use;OK;HARD;1;DISK OK - free space: /var 278563 MB (97% inode=99%):
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;Disk /var - adb2-d-use;OK;HARD;1;DISK OK - free space: /var 278543 MB (97% inode=99%):
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;Disk /var - pms-a-use;OK;HARD;1;DISK OK - free space: /var 225586 MB (78% inode=99%):
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;Disk /var - s1-sc1-c-use;OK;HARD;1;DISK OK - free space: /var 223985 MB (78% inode=99%):
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;Disk /var - s2-sc2-d-use;OK;HARD;1;DISK OK - free space: /var 224108 MB (78% inode=99%):
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;Disk /var - sms1-c-use;OK;HARD;1;DISK OK - free space: /var 237534 MB (82% inode=99%):
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;Disk /var - sms2-d-use;OK;HARD;1;DISK OK - free space: /var 237520 MB (82% inode=99%):
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;NTP Offset - adb1-c-use;OK;HARD;1;NTP OK: Offset 0.004851460457 secs
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;NTP Offset - adb2-d-use;OK;HARD;1;NTP OK: Offset -0.003174424171 secs
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;NTP Offset - pms-a-use;OK;HARD;1;NTP OK: Offset 0.003869652748 secs
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;NTP Offset - s1-sc1-c-use;OK;HARD;1;NTP OK: Offset 0.005820155144 secs
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;NTP Offset - s2-sc2-d-use;OK;HARD;1;NTP OK: Offset -0.003696918488 secs
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;NTP Offset - sms1-c-use;OK;HARD;1;NTP OK: Offset 0.001269936562 secs
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;NTP Offset - sms2-d-use;OK;HARD;1;NTP OK: Offset 0.0001512765884 secs
+[1400540400] CURRENT SERVICE STATE: bcd.mttnow.com;TripSource www site;OK;HARD;1;HTTP OK - HTTP/1.0 301 Moved Permanently - 0.897 second response time
+[1400540400] CURRENT SERVICE STATE: eleventh-hour.com;APP - API Status;OK;HARD;1;WebInject OK - All tests passed successfully in 0.827 seconds
+[1400540400] CURRENT SERVICE STATE: eleventh-hour.com;Email Errors S1 EUR;OK;HARD;1;OK: Value is 0.000
+[1400540400] CURRENT SERVICE STATE: eleventh-hour.com;HTTP - Admin Europe;OK;HARD;1;HTTP OK HTTP/1.1 200 OK - 14568 bytes in 0.908 seconds
+[1400540400] CURRENT SERVICE STATE: eleventh-hour.com;Server 1 - Disk /;OK;HARD;1;DISK OK - free space: / 5207 MB (65% inode=87%):
+[1400540400] CURRENT SERVICE STATE: eleventh-hour.com;Server 1 - Disk /var;OK;HARD;1;DISK OK - free space: /var 9459 MB (32% inode=98%):
+[1400540400] CURRENT SERVICE STATE: eleventh-hour.com;Server 1 - NTP Offset;OK;HARD;1;NTP OK: Offset -0.003961086273 secs
+[1400540400] CURRENT SERVICE STATE: eleventh-hour.com;Tomcat Memory S1 EUR;OK;HARD;1;OK: Value is 963520.000
+[1400540400] CURRENT SERVICE STATE: helpdesk.mttnow.com;Eleventh Hour POP3;OK;HARD;1;POP3_ACCOUNT OK - 4 emails for helpdesk@eleventh-hour.com
+[1400540400] CURRENT SERVICE STATE: helpdesk.mttnow.com;General POP3;OK;HARD;1;POP3_ACCOUNT OK - 0 emails for helpdesk@mttnow.com
+[1400540400] CURRENT SERVICE STATE: helpdesk.mttnow.com;HTTP;OK;HARD;1;HTTP OK - HTTP/1.1 302 Found - 0.290 second response time
+[1400540400] CURRENT SERVICE STATE: helpdesk.mttnow.com;Helpdesk Ansaback queue checking;OK;HARD;1;OK: Value is 0.000
+[1400540400] CURRENT SERVICE STATE: helpdesk.mttnow.com;Helpdesk Ops Support queue checking;OK;HARD;1;OK: Value is 0.000
+[1400540400] CURRENT SERVICE STATE: latam.mttnow.com;APP - Elasticsearch Status;OK;HARD;1;OK: status is green
+[1400540400] CURRENT SERVICE STATE: latam.mttnow.com;APP - Email Send Check - elb1-usw;OK;HARD;1;OK : sum:3395 : 3.395 seconds to complete.
+[1400540400] CURRENT SERVICE STATE: latam.mttnow.com;APP - Flight Data Check - elb1-usw;OK;HARD;1;WebInject OK - All tests passed successfully in 0.657 seconds
+[1400540400] CURRENT SERVICE STATE: latam.mttnow.com;APP - Flight Data Check - s1-sc1-b-usw;OK;HARD;1;WebInject OK - All tests passed successfully in 0.522 seconds
+[1400540400] CURRENT SERVICE STATE: latam.mttnow.com;APP - Flight Data Check - s2-sc1-c-usw;OK;HARD;1;WebInject OK - All tests passed successfully in 0.473 seconds
+[1400540400] CURRENT SERVICE STATE: latam.mttnow.com;Disk / - s1-sc1-b-usw;OK;HARD;1;DISK OK - free space: / 6046 MB (75% inode=89%):
+[1400540400] CURRENT SERVICE STATE: latam.mttnow.com;Disk / - s2-sc1-c-usw;OK;HARD;1;DISK OK - free space: / 6046 MB (75% inode=89%):
+[1400540400] CURRENT SERVICE STATE: latam.mttnow.com;Disk /var - s1-sc1-b-usw;OK;HARD;1;DISK OK - free space: /var 27037 MB (56% inode=99%):
+[1400540400] CURRENT SERVICE STATE: latam.mttnow.com;Disk /var - s2-sc1-c-usw;OK;HARD;1;DISK OK - free space: /var 32617 MB (68% inode=99%):
+[1400540400] CURRENT SERVICE STATE: latam.mttnow.com;Endpoint HTTPS Status - elb1-usw;OK;HARD;1;HTTP OK HTTP/1.1 200 OK - 171 bytes in 0.429 seconds
+[1400540400] CURRENT SERVICE STATE: latam.mttnow.com;NTP Offset - s1-sc1-b-usw;OK;HARD;1;NTP OK: Offset 0.001229524612 secs
+[1400540400] CURRENT SERVICE STATE: latam.mttnow.com;NTP Offset - s2-sc1-c-usw;OK;HARD;1;NTP OK: Offset 0.0003017187119 secs
+[1400540400] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.03, 0.05, 0.01
+[1400540400] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1400540400] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1400540400] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 4028 MB (41% inode=96%):
+[1400540400] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_4.3 (protocol 2.0)
+[1400540400] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (255 MB out of 255 MB)
+[1400540400] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 32 processes with STATE = RSZDT
+[1400540400] CURRENT SERVICE STATE: m.abacus.com.sg;Disk /;OK;HARD;1;DISK OK - free space: / 4859 MB (60% inode=91%):
+[1400540400] CURRENT SERVICE STATE: m.abacus.com.sg;Disk /var;OK;HARD;1;DISK OK - free space: /var 27899 MB (57% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.abacus.com.sg;FOX Check;OK;HARD;1;WebInject OK - All tests passed successfully in 4.474 seconds
+[1400540400] CURRENT SERVICE STATE: m.abacus.com.sg;HTTP;OK;HARD;1;HTTP OK - HTTP/1.1 302 Found - 0.416 second response time
+[1400540400] CURRENT SERVICE STATE: m.abacus.com.sg;HTTPS;OK;HARD;1;HTTP OK - HTTP/1.1 302 Found - 0.887 second response time
+[1400540400] CURRENT SERVICE STATE: m.abacus.com.sg;RBL Check;OK;HARD;1;CHECK_RBL OK -  (1 server timed out: access.redhawk.org)
+[1400540400] CURRENT SERVICE STATE: m.abacus.com.sg;SSL Cert;OK;HARD;1;OK: certificate expires in 515 days (Sat Oct 17 03:59:05 2015)
+[1400540400] CURRENT SERVICE STATE: m.atlantisthepalm.com;Disk /;OK;HARD;1;DISK OK - free space: / 5622 MB (69% inode=92%):
+[1400540400] CURRENT SERVICE STATE: m.atlantisthepalm.com;Disk /var;OK;HARD;1;DISK OK - free space: /var 23139 MB (47% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.atlantisthepalm.com;HTTP;OK;HARD;1;HTTP OK - HTTP/1.1 302 Found - 0.250 second response time
+[1400540400] CURRENT SERVICE STATE: m.atlantisthepalm.com;HTTPS;OK;HARD;1;HTTP OK - HTTP/1.1 302 Found - 0.748 second response time
+[1400540400] CURRENT SERVICE STATE: m.atlantisthepalm.com;MW - Bookings per week;OK;HARD;1;OK: Value is 349.000
+[1400540400] CURRENT SERVICE STATE: m.atlantisthepalm.com;MW - Dolphin Bay;OK;HARD;1;WebInject OK - All tests passed successfully in 13.026 seconds
+[1400540400] CURRENT SERVICE STATE: m.atlantisthepalm.com;MW - Payment Details;OK;HARD;1;OK: Value is 228.000
+[1400540400] CURRENT SERVICE STATE: m.atlantisthepalm.com;MW - Payment Details - NIGHT;OK;HARD;1;OK: Value is 331.000
+[1400540400] CURRENT SERVICE STATE: m.atlantisthepalm.com;MW - Redirect check;OK;HARD;1;Script requires fix
+[1400540400] CURRENT SERVICE STATE: m.atlantisthepalm.com;MW - Special Offers;OK;HARD;1;WebInject OK - All tests passed successfully in 0.527 seconds
+[1400540400] CURRENT SERVICE STATE: m.atlantisthepalm.com;MW - Waterpark;OK;HARD;1;OK: Value is 7.000
+[1400540400] CURRENT SERVICE STATE: m.atlantisthepalm.com;RBL Check;OK;HARD;1;CHECK_RBL OK - m.atlantisthepalm.com BLACKLISTED on 0 servers of 41
+[1400540400] CURRENT SERVICE STATE: m.atlantisthepalm.com;SSL Cert;OK;HARD;1;OK: certificate expires in 692 days (Mon Apr 11 00:59:59 2016)
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;APP - Elasticsearch Status;OK;HARD;1;OK: status is green
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Apps - Booking excl payment;OK;HARD;1;OK : sum:3690 : 3.69 seconds to complete.
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Apps - HTTP;OK;HARD;1;HTTP OK - HTTP/1.1 302 Found - 0.281 second response time
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Apps - HTTPS;OK;HARD;1;HTTP OK - HTTP/1.1 302 Found - 0.509 second response time
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Apps - Server1 - Booking excl payment;OK;HARD;1;OK : sum:6762 : 6.762 seconds to complete.
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Apps - Server2 - Booking excl payment;OK;HARD;1;OK : sum:5898 : 5.898 seconds to complete.
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Apps - User Login;OK;HARD;1;OK : sum:887 : 0.887 seconds to complete.
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Bookings Per Hour;OK;HARD;1;OK: Value is 168.000
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / pms-a-euw;OK;HARD;1;DISK OK - free space: / 5558 MB (69% inode=82%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / s1-sc1-b-euw;OK;HARD;1;DISK OK - free space: / 5060 MB (63% inode=81%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / s1-sc2-b-euw;OK;HARD;1;DISK OK - free space: / 5060 MB (63% inode=81%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / s1-sc3-b-euw;OK;HARD;1;DISK OK - free space: / 5059 MB (63% inode=81%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / s1-sc4-b-euw;OK;HARD;1;DISK OK - free space: / 3353 MB (42% inode=81%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / s1-sc5-b-euw;OK;HARD;1;DISK OK - free space: / 5162 MB (64% inode=81%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / s1-sc6-b-euw;OK;HARD;1;DISK OK - free space: / 5059 MB (63% inode=81%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / s1-sc7-b-euw;OK;HARD;1;DISK OK - free space: / 5060 MB (63% inode=81%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / s2-sc1-c-euw;OK;HARD;1;DISK OK - free space: / 5060 MB (63% inode=81%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / s2-sc2-c-euw;OK;HARD;1;DISK OK - free space: / 5060 MB (63% inode=81%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / s2-sc3-c-euw;OK;HARD;1;DISK OK - free space: / 5060 MB (63% inode=81%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / s2-sc4-c-euw;OK;HARD;1;DISK OK - free space: / 3684 MB (46% inode=81%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / s2-sc5-c-euw;OK;HARD;1;DISK OK - free space: / 5162 MB (64% inode=81%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / s2-sc6-c-euw;OK;HARD;1;DISK OK - free space: / 5059 MB (63% inode=81%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / s2-sc7-c-euw;OK;HARD;1;DISK OK - free space: / 5058 MB (63% inode=81%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / sms1-b-euw;OK;HARD;1;DISK OK - free space: / 5558 MB (69% inode=82%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk / sms2-c-euw;OK;HARD;1;DISK OK - free space: / 5558 MB (69% inode=82%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var pms-a-euw;OK;HARD;1;DISK OK - free space: /var 244116 MB (84% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var s1-sc1-b-euw;OK;HARD;1;DISK OK - free space: /var 30934 MB (64% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var s1-sc2-b-euw;OK;HARD;1;DISK OK - free space: /var 27340 MB (57% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var s1-sc3-b-euw;OK;HARD;1;DISK OK - free space: /var 14782 MB (30% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var s1-sc4-b-euw;OK;HARD;1;DISK OK - free space: /var 28728 MB (60% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var s1-sc5-b-euw;OK;HARD;1;DISK OK - free space: /var 165113 MB (57% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var s1-sc6-b-euw;OK;HARD;1;DISK OK - free space: /var 30557 MB (63% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var s1-sc7-b-euw;OK;HARD;1;DISK OK - free space: /var 25253 MB (52% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var s2-sc1-c-euw;OK;HARD;1;DISK OK - free space: /var 30924 MB (64% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var s2-sc2-c-euw;OK;HARD;1;DISK OK - free space: /var 27239 MB (56% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var s2-sc3-c-euw;OK;HARD;1;DISK OK - free space: /var 14707 MB (30% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var s2-sc4-c-euw;OK;HARD;1;DISK OK - free space: /var 28744 MB (60% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var s2-sc5-c-euw;OK;HARD;1;DISK OK - free space: /var 162900 MB (56% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var s2-sc6-c-euw;OK;HARD;1;DISK OK - free space: /var 30519 MB (63% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var s2-sc7-c-euw;OK;HARD;1;DISK OK - free space: /var 25000 MB (52% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var sms1-b-euw;OK;HARD;1;DISK OK - free space: /var 249292 MB (86% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Disk /var sms2-c-euw;OK;HARD;1;DISK OK - free space: /var 249296 MB (86% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;HTTP;OK;HARD;1;HTTP OK - HTTP/1.1 302 Found - 0.328 second response time
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;HTTP - V2.4.0 check;OK;HARD;1;HTTP OK HTTP/1.1 200 OK - 5455 bytes in 0.285 seconds
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;HTTP - deep check;OK;HARD;1;HTTP OK HTTP/1.1 200 OK - 6239 bytes in 0.457 seconds
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;HTTPS;OK;HARD;1;HTTP OK - HTTP/1.1 302 Found - 0.501 second response time
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;MW - ELB - MYSQL connections Booking;OK;HARD;1;OK: Value is 51.000
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;MW - ELB - MYSQL connections Mediator;OK;HARD;1;OK: Value is 16.000
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;MW - Server 1 - Flight Status;OK;HARD;1;OK: Value is 206.000
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;OK;HARD;1;OK: Value is 153.000
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;MW - Server 1 - Payment Details;OK;HARD;1;OK: Value is 119.000
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;MW - Server 1 - Payment Details - NIGHT;OK;HARD;1;OK: Value is 93.000
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;MW - Server 1 - Session Timeouts Per Day;OK;HARD;1;OK: Value is 0.000
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;MW - Server 2 - Flight Status;OK;HARD;1;OK: Value is 237.000
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;MW - Server 2 - Flight Status - NIGHT;OK;HARD;1;OK: Value is 230.000
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;MW - Server 2 - Payment Details - NIGHT;OK;HARD;1;OK: Value is 351.000
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;MW - Server 2 - Session Timeouts Per Day;OK;HARD;1;OK: Value is 0.000
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;MW - Server 2 Payment Details;OK;HARD;1;OK: Value is 371.000
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset pms-a-euw;OK;HARD;1;NTP OK: Offset 0.001777291298 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset s1-sc1-b-euw;OK;HARD;1;NTP OK: Offset -0.0002562999725 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset s1-sc2-b-euw;OK;HARD;1;NTP OK: Offset 0.0004018545151 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset s1-sc3-b-euw;OK;HARD;1;NTP OK: Offset -0.0005495548248 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset s1-sc4-b-euw;OK;HARD;1;NTP OK: Offset -0.003053426743 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset s1-sc5-b-euw;OK;HARD;1;NTP OK: Offset 0.001263856888 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset s1-sc6-b-euw;OK;HARD;1;NTP OK: Offset 1.394748688e-05 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset s1-sc7-b-euw;OK;HARD;1;NTP OK: Offset -0.0001080036163 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset s2-sc1-c-euw;OK;HARD;1;NTP OK: Offset -0.0008149147034 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset s2-sc2-c-euw;OK;HARD;1;NTP OK: Offset -0.001299738884 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset s2-sc3-c-euw;OK;HARD;1;NTP OK: Offset 0.0003498792648 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset s2-sc4-c-euw;OK;HARD;1;NTP OK: Offset -0.002319216728 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset s2-sc5-c-euw;OK;HARD;1;NTP OK: Offset -0.002261519432 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset s2-sc6-c-euw;OK;HARD;1;NTP OK: Offset -0.001309752464 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset s2-sc7-c-euw;OK;HARD;1;NTP OK: Offset -0.0006648302078 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset sms1-b-euw;OK;HARD;1;NTP OK: Offset 9.500980377e-05 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;NTP Offset sms2-c-euw;OK;HARD;1;NTP OK: Offset -0.0003390312195 secs
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;SSL Cert;OK;HARD;1;OK: certificate expires in 1055 days (Sun Apr  9 00:59:59 2017)
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Server 1 - Last Checkin;OK;HARD;1;OK: Value is 1.000
+[1400540400] CURRENT SERVICE STATE: m.easyjet.com;Server 2 - Last Checkin;OK;HARD;1;OK: Value is 2.000
+[1400540400] CURRENT SERVICE STATE: m.flybe.com;Disk /;OK;HARD;1;DISK OK - free space: / 4936 MB (61% inode=90%):
+[1400540400] CURRENT SERVICE STATE: m.flybe.com;Disk /var;OK;HARD;1;DISK OK - free space: /var 22551 MB (47% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.flybe.com;HTTP - Apache;OK;HARD;1;HTTP OK - HTTP/1.1 302 Found - 0.248 second response time
+[1400540400] CURRENT SERVICE STATE: m.flybe.com;HTTP - Tomcat;OK;HARD;1;HTTP OK - HTTP/1.1 302 Moved Temporarily - 0.404 second response time
+[1400540400] CURRENT SERVICE STATE: m.flybe.com;MW - Availability Results;OK;HARD;1;OK: Value is 1.000
+[1400540400] CURRENT SERVICE STATE: m.flybe.com;MW - Availability Results - NIGHT;OK;HARD;1;OK: Value is 18.000
+[1400540400] CURRENT SERVICE STATE: m.flybe.com;MW - Bookings per hour;OK;HARD;1;OK: Value is 52.000
+[1400540400] CURRENT SERVICE STATE: m.flybe.com;MW - Payment Details;OK;HARD;1;OK: Value is 148.000
+[1400540400] CURRENT SERVICE STATE: m.flybe.com;MW - Payment Details - NIGHT;OK;HARD;1;OK: Value is 479.000
+[1400540400] CURRENT SERVICE STATE: m.flybe.com;MW - Search Page;OK;HARD;1;OK: Value is 34.000
+[1400540400] CURRENT SERVICE STATE: m.flybe.com;MW - Search Page - NIGHT;OK;HARD;1;OK: Value is 6.000
+[1400540400] CURRENT SERVICE STATE: m.flybe.com;MW - Session Timeouts Per Day;OK;HARD;1;OK: Value is 0.000
+[1400540400] CURRENT SERVICE STATE: m.flybe.com;NTP Offset;OK;HARD;1;NTP OK: Offset 0.0008264780045 secs
+[1400540400] CURRENT SERVICE STATE: m.flybe.com;RBL Check;OK;HARD;1;CHECK_RBL OK -  (1 server timed out: access.redhawk.org)
+[1400540400] CURRENT SERVICE STATE: m.flybe.com;SSL Cert;OK;HARD;1;OK: certificate expires in 345 days (Thu Apr 30 16:00:00 2015)
+[1400540400] CURRENT SERVICE STATE: m.jumeirah.com;HTTP;OK;HARD;1;HTTP OK - HTTP/1.1 302 Found - 0.253 second response time
+[1400540400] CURRENT SERVICE STATE: m.jumeirah.com;HTTPS;OK;HARD;1;HTTP OK - HTTP/1.1 302 Found - 0.745 second response time
+[1400540400] CURRENT SERVICE STATE: m.jumeirah.com;MW - Standard Booking;OK;HARD;1;OK : sum:16254 : 16.254 seconds to complete.
+[1400540400] CURRENT SERVICE STATE: m.jumeirah.com;MW - Table Reservation;OK;HARD;1;OK : sum:4244 : 4.244 seconds to complete.
+[1400540400] CURRENT SERVICE STATE: m.jumeirah.com;RBL Check;OK;HARD;1;CHECK_RBL OK -  (1 server timed out: access.redhawk.org)
+[1400540400] CURRENT SERVICE STATE: m.jumeirah.com;SSL Cert;OK;HARD;1;OK: certificate expires in 209 days (Mon Dec 15 12:00:00 2014)
+[1400540400] CURRENT SERVICE STATE: m.transavia.com;APPS - Availability Results;OK;HARD;1;OK: Value is 2.000
+[1400540400] CURRENT SERVICE STATE: m.transavia.com;APPS - Availability Results - NIGHT;OK;HARD;1;OK: Value is 10.000
+[1400540400] CURRENT SERVICE STATE: m.transavia.com;APPS - Bookings per hour;OK;HARD;1;OK: Value is 32.000
+[1400540400] CURRENT SERVICE STATE: m.transavia.com;APPS - Payment Details;OK;HARD;1;OK: Value is 800.000
+[1400540400] CURRENT SERVICE STATE: m.transavia.com;APPS - Payment Details - NIGHT;OK;HARD;1;OK: Value is 3707.000
+[1400540400] CURRENT SERVICE STATE: m.transavia.com;Disk /;OK;HARD;1;DISK OK - free space: / 4599 MB (56% inode=92%):
+[1400540400] CURRENT SERVICE STATE: m.transavia.com;Disk /var;OK;HARD;1;DISK OK - free space: /var 28943 MB (59% inode=99%):
+[1400540400] CURRENT SERVICE STATE: m.transavia.com;HTTP - Apache;OK;HARD;1;HTTP OK - HTTP/1.1 302 Moved Temporarily - 0.289 second response time
+[1400540400] CURRENT SERVICE STATE: m.transavia.com;HTTP - Tomcat;OK;HARD;1;HTTP OK HTTP/1.1 200 OK - 2218 bytes in 0.241 seconds
+[1400540400] CURRENT SERVICE STATE: m.transavia.com;RBL Check;OK;HARD;1;CHECK_RBL OK -  (1 server timed out: access.redhawk.org)
+[1400540400] CURRENT SERVICE STATE: m.transavia.com;SSL Cert;OK;HARD;1;OK: certificate expires in 325 days (Fri Apr 10 00:59:59 2015)
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;Disk S1 /;OK;HARD;1;DISK OK - free space: / 3556 MB (35% inode=92%):
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;Disk S1 /var;OK;HARD;1;DISK OK - free space: /var 54487 MB (37% inode=99%):
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;Disk S2 /;OK;HARD;1;DISK OK - free space: / 3569 MB (35% inode=92%):
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;Disk S2 /var;OK;HARD;1;DISK OK - free space: /var 48450 MB (33% inode=99%):
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;HTTP - LB - Check App;OK;HARD;1;HTTP OK - HTTP/1.1 302 Moved Temporarily - 0.448 second response time
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;HTTP - LB - Check App JP;OK;HARD;1;HTTP OK - HTTP/1.1 302 Moved Temporarily - 0.464 second response time
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;HTTP - S1 - Check App;OK;HARD;1;HTTP OK - HTTP/1.1 302 Moved Temporarily - 0.506 second response time
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;HTTP - S1 - Check App JP;OK;HARD;1;HTTP OK - HTTP/1.1 302 Moved Temporarily - 0.424 second response time
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;HTTP - S2 - Check App;OK;HARD;1;HTTP OK - HTTP/1.1 302 Moved Temporarily - 0.451 second response time
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;HTTP - S2 - Check App JP;OK;HARD;1;HTTP OK - HTTP/1.1 302 Moved Temporarily - 0.475 second response time
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;MW - Bookings per day JP;OK;HARD;1;OK: Value is 7.000
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;MW - Bookings per hour;OK;HARD;1;OK: Value is 67.000
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;MW - Checkins per hour;OK;HARD;1;OK: Value is 43.000
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;MW - S1 - Flight Status;OK;HARD;1;OK: Value is 19.000
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;MW - S1 - Payment Details;OK;HARD;1;OK: Value is 17.000
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;MW - S2 - Flight Status;OK;HARD;1;OK: Value is 93.000
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;MW - S2 - Payment Details;OK;HARD;1;OK: Value is 10.000
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;RBL Check;OK;HARD;1;CHECK_RBL OK - mobile.jetstar.com BLACKLISTED on 0 servers of 41
+[1400540400] CURRENT SERVICE STATE: mobile.jetstar.com;SSL Cert;OK;HARD;1;OK: certificate expires in 650 days (Sun Feb 28 23:59:59 2016)
+[1400540400] CURRENT SERVICE STATE: security.mttnow.com;Amazon AMI Patch RSS Check;OK;HARD;1;OK: No Matches in last 1 days
+[1400540400] CURRENT SERVICE STATE: security.mttnow.com;Samhain File Integrity;CRITICAL;HARD;4;POP3_ACCOUNT CRITICAL - 703 emails for la.samhain@mttnow.com
+[1400540400] CURRENT SERVICE STATE: www.mttnow.com;Disk /;OK;HARD;1;DISK OK - free space: /var 1208 MB (25% inode=94%):
+[1400540400] CURRENT SERVICE STATE: www.mttnow.com;Disk /var;OK;HARD;1;DISK OK - free space: / 5832 MB (60% inode=76%):
+[1400540400] CURRENT SERVICE STATE: www.mttnow.com;HTTP;OK;HARD;1;HTTP OK - HTTP/1.0 301 Moved Permanently - 0.805 second response time
+[1400540400] CURRENT SERVICE STATE: www.mttnow.com;RBL Check;OK;HARD;1;CHECK_RBL OK -  (1 server timed out: access.redhawk.org)
+[1400540400] CURRENT SERVICE STATE: www.mttnow.com;Webapp - Deep check;OK;HARD;1;WebInject OK - All tests passed successfully in 2.104 seconds
+[1400540747] SERVICE ALERT: m.jumeirah.com;MW - Standard Booking;WARNING;SOFT;1;WARNING : sum:80652 : 80.652 seconds to complete. (warning 60)
+[1400540917] SERVICE ALERT: m.jumeirah.com;MW - Standard Booking;OK;SOFT;2;OK : sum:16174 : 16.174 seconds to complete.
+[1400541677] Auto-save of retention data completed successfully.
+[1400541707] SERVICE ALERT: m.jumeirah.com;MW - Table Reservation;CRITICAL;SOFT;1;CRITICAL: Timeout 180 sec expired.
+[1400541777] SERVICE ALERT: m.jumeirah.com;MW - Table Reservation;OK;SOFT;2;OK : sum:4111 : 4.111 seconds to complete.
+[1400542807] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;WARNING;SOFT;1;WARNING: Value is 5.000
+[1400543047] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;WARNING;SOFT;2;WARNING: Value is 5.000
+[1400543287] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;WARNING;SOFT;3;WARNING: Value is 5.000
+[1400543527] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;WARNING;HARD;4;WARNING: Value is 5.000
+[1400543527] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-sms;WARNING: Value is 5.000
+[1400543527] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 5.000
+[1400543527] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-sms;WARNING: Value is 5.000
+[1400543528] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 5.000
+[1400543528] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-sms;WARNING: Value is 5.000
+[1400543529] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 5.000
+[1400543529] SERVICE NOTIFICATION: nagiosadmin;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 5.000
+[1400545247] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;WARNING;SOFT;1;WARNING: Value is 1246.000
+[1400545277] Auto-save of retention data completed successfully.
+[1400545487] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;OK;SOFT;2;OK: Value is 191.000
+[1400545707] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details - NIGHT;WARNING;SOFT;1;WARNING: Value is 1424.000
+[1400545727] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details;WARNING;SOFT;1;WARNING: Value is 1450.000
+[1400545947] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details - NIGHT;WARNING;SOFT;2;WARNING: Value is 1664.000
+[1400545967] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details;WARNING;SOFT;2;WARNING: Value is 1690.000
+[1400546187] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details - NIGHT;OK;SOFT;3;OK: Value is 100.000
+[1400546207] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details;OK;SOFT;3;OK: Value is 126.000
+[1400546507] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status;WARNING;SOFT;1;WARNING: Value is 1204.000
+[1400546687] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;WARNING;SOFT;1;WARNING: Value is 1391.000
+[1400546747] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status;WARNING;SOFT;2;WARNING: Value is 1444.000
+[1400546927] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;WARNING;SOFT;2;WARNING: Value is 1631.000
+[1400546987] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status;WARNING;SOFT;3;WARNING: Value is 1684.000
+[1400547097] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status - NIGHT;WARNING;SOFT;1;WARNING: Value is 1487.000
+[1400547107] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status;WARNING;SOFT;1;WARNING: Value is 1494.000
+[1400547127] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;OK;HARD;4;OK: Value is 6.000
+[1400547127] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Bookings per day JP;OK;notify-service-by-sms;OK: Value is 6.000
+[1400547127] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Bookings per day JP;OK;notify-service-by-email;OK: Value is 6.000
+[1400547127] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Bookings per day JP;OK;notify-service-by-sms;OK: Value is 6.000
+[1400547128] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Bookings per day JP;OK;notify-service-by-email;OK: Value is 6.000
+[1400547128] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Bookings per day JP;OK;notify-service-by-sms;OK: Value is 6.000
+[1400547129] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Bookings per day JP;OK;notify-service-by-email;OK: Value is 6.000
+[1400547129] SERVICE NOTIFICATION: nagiosadmin;mobile.jetstar.com;MW - Bookings per day JP;OK;notify-service-by-email;OK: Value is 6.000
+[1400547167] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;WARNING;SOFT;3;WARNING: Value is 1871.000
+[1400547227] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status;WARNING;HARD;4;WARNING: Value is 1924.000
+[1400547337] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status - NIGHT;WARNING;SOFT;2;WARNING: Value is 1727.000
+[1400547347] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status;WARNING;SOFT;2;WARNING: Value is 1734.000
+[1400547407] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;WARNING;HARD;4;WARNING: Value is 2111.000
+[1400547577] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status - NIGHT;WARNING;SOFT;3;WARNING: Value is 1967.000
+[1400547587] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status;WARNING;SOFT;3;WARNING: Value is 1974.000
+[1400547647] SERVICE ALERT: m.flybe.com;MW - Payment Details;WARNING;SOFT;1;WARNING: Value is 2518.000
+[1400547817] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status - NIGHT;WARNING;HARD;4;WARNING: Value is 2207.000
+[1400547827] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status;OK;HARD;4;OK: Value is 95.000
+[1400547827] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status;WARNING;HARD;4;WARNING: Value is 2214.000
+[1400547887] SERVICE ALERT: m.flybe.com;MW - Payment Details;WARNING;SOFT;2;WARNING: Value is 2758.000
+[1400548007] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;OK;HARD;4;OK: Value is 157.000
+[1400548127] SERVICE ALERT: m.flybe.com;MW - Payment Details;WARNING;SOFT;3;WARNING: Value is 2998.000
+[1400548367] SERVICE ALERT: m.flybe.com;MW - Payment Details;WARNING;HARD;4;WARNING: Value is 3238.000
+[1400548417] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status - NIGHT;OK;HARD;4;OK: Value is 474.000
+[1400548427] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status;OK;HARD;4;OK: Value is 481.000
+[1400548497] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Payment Details - NIGHT;WARNING;SOFT;1;WARNING: Value is 1660.000
+[1400548517] SERVICE ALERT: m.easyjet.com;MW - Server 2 Payment Details;WARNING;SOFT;1;WARNING: Value is 1680.000
+[1400548737] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Payment Details - NIGHT;WARNING;SOFT;2;WARNING: Value is 1900.000
+[1400548757] SERVICE ALERT: m.easyjet.com;MW - Server 2 Payment Details;WARNING;SOFT;2;WARNING: Value is 1920.000
+[1400548877] Auto-save of retention data completed successfully.
+[1400548937] SERVICE ALERT: m.transavia.com;APPS - Payment Details;WARNING;SOFT;1;WARNING: Value is 2881.000
+[1400548977] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Payment Details - NIGHT;WARNING;SOFT;3;WARNING: Value is 2140.000
+[1400548997] SERVICE ALERT: m.easyjet.com;MW - Server 2 Payment Details;WARNING;SOFT;3;WARNING: Value is 2160.000
+[1400549177] SERVICE ALERT: m.transavia.com;APPS - Payment Details;WARNING;SOFT;2;WARNING: Value is 3121.000
+[1400549217] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Payment Details - NIGHT;WARNING;HARD;4;WARNING: Value is 2380.000
+[1400549237] SERVICE ALERT: m.easyjet.com;MW - Server 2 Payment Details;CRITICAL;HARD;4;CRITICAL: Value is 2400.000
+[1400549417] SERVICE ALERT: m.transavia.com;APPS - Payment Details;WARNING;SOFT;3;WARNING: Value is 3361.000
+[1400549627] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status;WARNING;SOFT;1;WARNING: Value is 1400.000
+[1400549657] SERVICE ALERT: m.transavia.com;APPS - Payment Details;WARNING;HARD;4;WARNING: Value is 3601.000
+[1400549807] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;WARNING;SOFT;1;WARNING: Value is 1587.000
+[1400549817] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Payment Details - NIGHT;CRITICAL;HARD;4;CRITICAL: Value is 2980.000
+[1400549867] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status;WARNING;SOFT;2;WARNING: Value is 1640.000
+[1400550047] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;WARNING;SOFT;2;WARNING: Value is 1827.000
+[1400550107] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status;WARNING;SOFT;3;WARNING: Value is 1880.000
+[1400550167] SERVICE ALERT: m.flybe.com;MW - Payment Details;CRITICAL;HARD;4;CRITICAL: Value is 5038.000
+[1400550257] SERVICE ALERT: m.transavia.com;APPS - Payment Details;OK;HARD;4;OK: Value is 434.000
+[1400550287] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;WARNING;SOFT;3;WARNING: Value is 2067.000
+[1400550347] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status;WARNING;HARD;4;WARNING: Value is 2120.000
+[1400550527] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;WARNING;HARD;4;WARNING: Value is 2307.000
+[1400550817] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status - NIGHT;WARNING;SOFT;1;WARNING: Value is 1578.000
+[1400550827] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status;WARNING;SOFT;1;WARNING: Value is 1585.000
+[1400550947] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status;CRITICAL;HARD;4;CRITICAL: Value is 2720.000
+[1400550947] SERVICE FLAPPING ALERT: m.easyjet.com;MW - Server 1 - Flight Status;STARTED; Service appears to have started flapping (23.7% change >= 20.0% threshold)
+[1400550977] SERVICE ALERT: m.flybe.com;MW - Payment Details - NIGHT;WARNING;SOFT;1;WARNING: Value is 5849.000
+[1400551017] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Payment Details - NIGHT;OK;HARD;4;OK: Value is 15.000
+[1400551037] SERVICE ALERT: m.easyjet.com;MW - Server 2 Payment Details;OK;HARD;4;OK: Value is 35.000
+[1400551057] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status - NIGHT;OK;SOFT;2;OK: Value is 119.000
+[1400551067] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status;OK;SOFT;2;OK: Value is 126.000
+[1400551127] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;CRITICAL;HARD;4;CRITICAL: Value is 2907.000
+[1400551127] SERVICE FLAPPING ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;STARTED; Service appears to have started flapping (23.7% change >= 20.0% threshold)
+[1400551217] SERVICE ALERT: m.flybe.com;MW - Payment Details - NIGHT;OK;SOFT;2;OK: Value is 148.000
+[1400551367] SERVICE ALERT: m.flybe.com;MW - Payment Details;OK;HARD;4;OK: Value is 101.000
+[1400551727] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;OK;HARD;4;OK: Value is 166.000
+[1400551797] SERVICE ALERT: m.jumeirah.com;MW - Standard Booking;WARNING;SOFT;1;WARNING : sum:99142 : 99.142 seconds to complete. (warning 60)
+[1400551957] SERVICE ALERT: m.jumeirah.com;MW - Standard Booking;OK;SOFT;2;OK : sum:15926 : 15.926 seconds to complete.
+[1400552147] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status;OK;HARD;4;OK: Value is 213.000
+[1400552257] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status - NIGHT;WARNING;SOFT;1;WARNING: Value is 1319.000
+[1400552267] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status;WARNING;SOFT;1;WARNING: Value is 1326.000
+[1400552477] Auto-save of retention data completed successfully.
+[1400552497] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status - NIGHT;OK;SOFT;2;OK: Value is 150.000
+[1400552507] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status;OK;SOFT;2;OK: Value is 157.000
+[1400552817] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Payment Details - NIGHT;WARNING;SOFT;1;WARNING: Value is 1604.000
+[1400552837] SERVICE ALERT: m.easyjet.com;MW - Server 2 Payment Details;WARNING;SOFT;1;WARNING: Value is 1624.000
+[1400553057] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Payment Details - NIGHT;OK;SOFT;2;OK: Value is 46.000
+[1400553077] SERVICE ALERT: m.easyjet.com;MW - Server 2 Payment Details;OK;SOFT;2;OK: Value is 66.000
+[1400553387] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details - NIGHT;WARNING;SOFT;1;WARNING: Value is 1385.000
+[1400553407] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details;WARNING;SOFT;1;WARNING: Value is 1411.000
+[1400553627] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details - NIGHT;WARNING;SOFT;2;WARNING: Value is 1625.000
+[1400553647] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details;WARNING;SOFT;2;WARNING: Value is 1651.000
+[1400553767] SERVICE ALERT: m.flybe.com;MW - Payment Details;WARNING;SOFT;1;WARNING: Value is 2501.000
+[1400553857] SERVICE ALERT: m.transavia.com;APPS - Payment Details;WARNING;SOFT;1;WARNING: Value is 2953.000
+[1400553867] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details - NIGHT;WARNING;SOFT;3;WARNING: Value is 1865.000
+[1400553887] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details;WARNING;SOFT;3;WARNING: Value is 1891.000
+[1400554007] SERVICE ALERT: m.flybe.com;MW - Payment Details;WARNING;SOFT;2;WARNING: Value is 2741.000
+[1400554097] SERVICE ALERT: m.transavia.com;APPS - Payment Details;WARNING;SOFT;2;WARNING: Value is 3193.000
+[1400554107] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details - NIGHT;OK;SOFT;4;OK: Value is 127.000
+[1400554127] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details;OK;SOFT;4;OK: Value is 153.000
+[1400554247] SERVICE ALERT: m.flybe.com;MW - Payment Details;WARNING;SOFT;3;WARNING: Value is 2981.000
+[1400554337] SERVICE ALERT: m.transavia.com;APPS - Payment Details;WARNING;SOFT;3;WARNING: Value is 3433.000
+[1400554487] SERVICE ALERT: m.flybe.com;MW - Payment Details;WARNING;HARD;4;WARNING: Value is 3221.000
+[1400554487] SERVICE FLAPPING ALERT: m.flybe.com;MW - Payment Details;STARTED; Service appears to have started flapping (22.5% change >= 20.0% threshold)
+[1400554577] SERVICE ALERT: m.transavia.com;APPS - Payment Details;WARNING;HARD;4;WARNING: Value is 3673.000
+[1400554897] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status - NIGHT;WARNING;SOFT;1;WARNING: Value is 1367.000
+[1400554907] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status;WARNING;SOFT;1;WARNING: Value is 1374.000
+[1400555137] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status - NIGHT;OK;SOFT;2;OK: Value is 76.000
+[1400555147] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status;OK;SOFT;2;OK: Value is 83.000
+[1400555457] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Payment Details - NIGHT;WARNING;SOFT;1;WARNING: Value is 1284.000
+[1400555477] SERVICE ALERT: m.easyjet.com;MW - Server 2 Payment Details;WARNING;SOFT;1;WARNING: Value is 1304.000
+[1400555697] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Payment Details - NIGHT;OK;SOFT;2;OK: Value is 176.000
+[1400555717] SERVICE ALERT: m.easyjet.com;MW - Server 2 Payment Details;OK;SOFT;2;OK: Value is 196.000
+[1400555777] SERVICE ALERT: m.transavia.com;APPS - Payment Details;CRITICAL;HARD;4;CRITICAL: Value is 4873.000
+[1400555777] SERVICE FLAPPING ALERT: m.transavia.com;APPS - Payment Details;STARTED; Service appears to have started flapping (22.5% change >= 20.0% threshold)
+[1400555927] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;WARNING;SOFT;1;WARNING: Value is 1224.000
+[1400556077] Auto-save of retention data completed successfully.
+[1400556167] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;OK;SOFT;2;OK: Value is 128.000
+[1400556287] SERVICE ALERT: m.flybe.com;MW - Payment Details;CRITICAL;HARD;4;CRITICAL: Value is 5021.000
+[1400556607] SERVICE ALERT: m.transavia.com;APPS - Payment Details - NIGHT;WARNING;SOFT;1;WARNING: Value is 5698.000
+[1400556607] SERVICE ALERT: m.transavia.com;APPS - Payment Details - NIGHT;WARNING;SOFT;2;WARNING: Value is 5698.000
+[1400556607] SERVICE ALERT: m.transavia.com;APPS - Payment Details - NIGHT;WARNING;SOFT;3;WARNING: Value is 5698.000
+[1400556727] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;WARNING;SOFT;1;WARNING: Value is 5.000
+[1400556847] SERVICE ALERT: m.transavia.com;APPS - Payment Details - NIGHT;WARNING;HARD;4;WARNING: Value is 5938.000
+[1400556967] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;WARNING;SOFT;2;WARNING: Value is 5.000
+[1400557207] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;WARNING;SOFT;3;WARNING: Value is 5.000
+[1400557217] SERVICE ALERT: m.flybe.com;MW - Payment Details - NIGHT;WARNING;SOFT;1;WARNING: Value is 5952.000
+[1400557447] SERVICE ALERT: m.transavia.com;APPS - Payment Details - NIGHT;OK;HARD;4;OK: Value is 182.000
+[1400557447] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;WARNING;HARD;4;WARNING: Value is 5.000
+[1400557447] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-sms;WARNING: Value is 5.000
+[1400557447] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 5.000
+[1400557447] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-sms;WARNING: Value is 5.000
+[1400557448] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 5.000
+[1400557448] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-sms;WARNING: Value is 5.000
+[1400557449] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 5.000
+[1400557449] SERVICE NOTIFICATION: nagiosadmin;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 5.000
+[1400557457] SERVICE ALERT: m.flybe.com;MW - Payment Details - NIGHT;WARNING;SOFT;2;WARNING: Value is 6192.000
+[1400557577] SERVICE ALERT: m.transavia.com;APPS - Payment Details;OK;HARD;4;OK: Value is 317.000
+[1400557697] SERVICE ALERT: m.flybe.com;MW - Payment Details - NIGHT;WARNING;SOFT;3;WARNING: Value is 6432.000
+[1400557937] SERVICE ALERT: m.flybe.com;MW - Payment Details - NIGHT;WARNING;HARD;4;WARNING: Value is 6672.000
+[1400558137] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status - NIGHT;WARNING;SOFT;1;WARNING: Value is 1485.000
+[1400558147] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status;WARNING;SOFT;1;WARNING: Value is 1492.000
+[1400558377] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status - NIGHT;WARNING;SOFT;2;WARNING: Value is 1725.000
+[1400558387] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status;WARNING;SOFT;2;WARNING: Value is 1732.000
+[1400558617] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status - NIGHT;OK;SOFT;3;OK: Value is 71.000
+[1400558627] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Flight Status;OK;SOFT;3;OK: Value is 78.000
+[1400558767] SERVICE ALERT: bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;SOFT;1;CRITICAL: 500 SSL read timeout:
+[1400558827] SERVICE ALERT: bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;SOFT;2;CRITICAL: 500 SSL read timeout:
+[1400558887] SERVICE ALERT: bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;SOFT;3;CRITICAL: 500 SSL read timeout:
+[1400558947] SERVICE ALERT: bcd.mttnow.com;APP - Registrations per hour - ELB;OK;SOFT;4;OK: Value is 116.000
+[1400559137] SERVICE ALERT: m.flybe.com;MW - Payment Details - NIGHT;OK;HARD;4;OK: Value is 61.000
+[1400559287] SERVICE ALERT: m.flybe.com;MW - Payment Details;OK;HARD;4;OK: Value is 16.000
+[1400559297] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Payment Details - NIGHT;WARNING;SOFT;1;WARNING: Value is 1205.000
+[1400559317] SERVICE ALERT: m.easyjet.com;MW - Server 2 Payment Details;WARNING;SOFT;1;WARNING: Value is 1225.000
+[1400559507] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details - NIGHT;WARNING;SOFT;1;WARNING: Value is 1375.000
+[1400559527] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details;WARNING;SOFT;1;WARNING: Value is 1401.000
+[1400559537] SERVICE ALERT: m.easyjet.com;MW - Server 2 - Payment Details - NIGHT;OK;SOFT;2;OK: Value is 179.000
+[1400559557] SERVICE ALERT: m.easyjet.com;MW - Server 2 Payment Details;OK;SOFT;2;OK: Value is 199.000
+[1400559677] Auto-save of retention data completed successfully.
+[1400559747] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details - NIGHT;WARNING;SOFT;2;WARNING: Value is 1615.000
+[1400559767] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details;WARNING;SOFT;2;WARNING: Value is 1641.000
+[1400559847] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;OK;HARD;4;OK: Value is 6.000
+[1400559847] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Bookings per day JP;OK;notify-service-by-sms;OK: Value is 6.000
+[1400559847] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Bookings per day JP;OK;notify-service-by-email;OK: Value is 6.000
+[1400559847] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Bookings per day JP;OK;notify-service-by-sms;OK: Value is 6.000
+[1400559848] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Bookings per day JP;OK;notify-service-by-email;OK: Value is 6.000
+[1400559848] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Bookings per day JP;OK;notify-service-by-sms;OK: Value is 6.000
+[1400559849] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Bookings per day JP;OK;notify-service-by-email;OK: Value is 6.000
+[1400559849] SERVICE NOTIFICATION: nagiosadmin;mobile.jetstar.com;MW - Bookings per day JP;OK;notify-service-by-email;OK: Value is 6.000
+[1400559987] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details - NIGHT;WARNING;SOFT;3;WARNING: Value is 1855.000
+[1400560007] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details;WARNING;SOFT;3;WARNING: Value is 1881.000
+[1400560227] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details - NIGHT;WARNING;HARD;4;WARNING: Value is 2095.000
+[1400560247] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details;WARNING;HARD;4;WARNING: Value is 2121.000
+[1400560827] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details - NIGHT;OK;HARD;4;OK: Value is 167.000
+[1400560847] SERVICE ALERT: m.easyjet.com;MW - Server 1 - Payment Details;OK;HARD;4;OK: Value is 193.000
+[1400562247] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;WARNING;SOFT;1;WARNING: Value is 5.000
+[1400562377] SERVICE ALERT: m.transavia.com;APPS - Payment Details;WARNING;SOFT;1;WARNING: Value is 2484.000
+[1400562487] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;WARNING;SOFT;2;WARNING: Value is 5.000
+[1400562617] SERVICE ALERT: m.transavia.com;APPS - Payment Details;WARNING;SOFT;2;WARNING: Value is 2724.000
+[1400562727] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;OK;SOFT;3;OK: Value is 6.000
+[1400562857] SERVICE ALERT: m.transavia.com;APPS - Payment Details;WARNING;SOFT;3;WARNING: Value is 2964.000
+[1400562877] SERVICE ALERT: m.jumeirah.com;MW - Table Reservation;WARNING;SOFT;1;WARNING : sum:104564 : 104.564 seconds to complete. (warning 60)
+[1400562947] SERVICE FLAPPING ALERT: m.easyjet.com;MW - Server 1 - Flight Status;STOPPED; Service appears to have stopped flapping (3.9% change < 5.0% threshold)
+[1400563017] SERVICE ALERT: m.jumeirah.com;MW - Table Reservation;OK;SOFT;2;OK : sum:4115 : 4.115 seconds to complete.
+[1400563097] SERVICE ALERT: m.transavia.com;APPS - Payment Details;WARNING;HARD;4;WARNING: Value is 3204.000
+[1400563277] Auto-save of retention data completed successfully.
+[1400563367] SERVICE FLAPPING ALERT: m.easyjet.com;MW - Server 1 - Flight Status - NIGHT;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+[1400564297] SERVICE ALERT: m.transavia.com;APPS - Payment Details;OK;HARD;4;OK: Value is 10.000
+[1400565667] SERVICE ALERT: m.transavia.com;APPS - Bookings per hour;WARNING;SOFT;1;WARNING: Value is 2.000
+[1400565687] SERVICE ALERT: m.easyjet.com;Apps - Booking excl payment;CRITICAL;SOFT;1;CRITICAL: Timeout 180 sec expired.
+[1400565747] SERVICE ALERT: m.easyjet.com;Apps - Booking excl payment;OK;SOFT;2;OK : sum:3855 : 3.855 seconds to complete.
+[1400565907] SERVICE ALERT: m.transavia.com;APPS - Bookings per hour;WARNING;SOFT;2;WARNING: Value is 2.000
+[1400566147] SERVICE ALERT: m.transavia.com;APPS - Bookings per hour;WARNING;SOFT;3;WARNING: Value is 3.000
+[1400566387] SERVICE ALERT: m.transavia.com;APPS - Bookings per hour;WARNING;HARD;4;WARNING: Value is 3.000
+[1400566387] SERVICE NOTIFICATION: gmcdaid;m.transavia.com;APPS - Bookings per hour;WARNING;notify-service-by-sms;WARNING: Value is 3.000
+[1400566387] SERVICE NOTIFICATION: gmcdaid;m.transavia.com;APPS - Bookings per hour;WARNING;notify-service-by-email;WARNING: Value is 3.000
+[1400566387] SERVICE NOTIFICATION: abrinyov;m.transavia.com;APPS - Bookings per hour;WARNING;notify-service-by-sms;WARNING: Value is 3.000
+[1400566388] SERVICE NOTIFICATION: abrinyov;m.transavia.com;APPS - Bookings per hour;WARNING;notify-service-by-email;WARNING: Value is 3.000
+[1400566388] SERVICE NOTIFICATION: mnevzorova;m.transavia.com;APPS - Bookings per hour;WARNING;notify-service-by-sms;WARNING: Value is 3.000
+[1400566389] SERVICE NOTIFICATION: mnevzorova;m.transavia.com;APPS - Bookings per hour;WARNING;notify-service-by-email;WARNING: Value is 3.000
+[1400566389] SERVICE NOTIFICATION: nagiosadmin;m.transavia.com;APPS - Bookings per hour;WARNING;notify-service-by-email;WARNING: Value is 3.000
+[1400566389] SERVICE NOTIFICATION: ctwomey;m.transavia.com;APPS - Bookings per hour;WARNING;notify-service-by-email;WARNING: Value is 3.000
+[1400566877] Auto-save of retention data completed successfully.
+[1400566987] SERVICE ALERT: m.transavia.com;APPS - Bookings per hour;OK;HARD;4;OK: Value is 4.000
+[1400566987] SERVICE NOTIFICATION: gmcdaid;m.transavia.com;APPS - Bookings per hour;OK;notify-service-by-sms;OK: Value is 4.000
+[1400566987] SERVICE NOTIFICATION: gmcdaid;m.transavia.com;APPS - Bookings per hour;OK;notify-service-by-email;OK: Value is 4.000
+[1400566987] SERVICE NOTIFICATION: abrinyov;m.transavia.com;APPS - Bookings per hour;OK;notify-service-by-sms;OK: Value is 4.000
+[1400566988] SERVICE NOTIFICATION: abrinyov;m.transavia.com;APPS - Bookings per hour;OK;notify-service-by-email;OK: Value is 4.000
+[1400566988] SERVICE NOTIFICATION: mnevzorova;m.transavia.com;APPS - Bookings per hour;OK;notify-service-by-sms;OK: Value is 4.000
+[1400566989] SERVICE NOTIFICATION: mnevzorova;m.transavia.com;APPS - Bookings per hour;OK;notify-service-by-email;OK: Value is 4.000
+[1400566989] SERVICE NOTIFICATION: nagiosadmin;m.transavia.com;APPS - Bookings per hour;OK;notify-service-by-email;OK: Value is 4.000
+[1400566989] SERVICE NOTIFICATION: ctwomey;m.transavia.com;APPS - Bookings per hour;OK;notify-service-by-email;OK: Value is 4.000
+[1400568187] SERVICE ALERT: m.transavia.com;APPS - Bookings per hour;WARNING;SOFT;1;WARNING: Value is 3.000
+[1400568287] SERVICE FLAPPING ALERT: m.flybe.com;MW - Payment Details;STOPPED; Service appears to have stopped flapping (4.3% change < 5.0% threshold)
+[1400568427] SERVICE ALERT: m.transavia.com;APPS - Bookings per hour;WARNING;SOFT;2;WARNING: Value is 3.000
+[1400568667] SERVICE ALERT: m.transavia.com;APPS - Bookings per hour;OK;SOFT;3;OK: Value is 4.000
+[1400570277] SERVICE ALERT: m.jumeirah.com;MW - Table Reservation;WARNING;SOFT;1;WARNING : sum:65895 : 65.895 seconds to complete. (warning 60)
+[1400570457] SERVICE ALERT: m.jumeirah.com;MW - Table Reservation;OK;SOFT;2;OK : sum:3881 : 3.881 seconds to complete.
+[1400570477] Auto-save of retention data completed successfully.
+[1400574077] Auto-save of retention data completed successfully.
+[1400575097] SERVICE FLAPPING ALERT: m.transavia.com;APPS - Payment Details;STOPPED; Service appears to have stopped flapping (3.9% change < 5.0% threshold)
+[1400577677] Auto-save of retention data completed successfully.
+[1400581277] Auto-save of retention data completed successfully.
+[1400581407] SERVICE ALERT: m.jumeirah.com;MW - Standard Booking;WARNING;SOFT;1;WARNING : sum:65375 : 65.375 seconds to complete. (warning 60)
+[1400581597] SERVICE ALERT: m.jumeirah.com;MW - Standard Booking;OK;SOFT;2;OK : sum:15664 : 15.664 seconds to complete.
+[1400584227] SERVICE ALERT: m.atlantisthepalm.com;MW - Dolphin Bay;CRITICAL;SOFT;1;WebInject CRITICAL - Couldn't display Time Slots
+[1400584457] SERVICE ALERT: m.atlantisthepalm.com;MW - Dolphin Bay;OK;SOFT;2;WebInject OK - All tests passed successfully in 12.319 seconds
+[1400584877] Auto-save of retention data completed successfully.
+[1400588477] Auto-save of retention data completed successfully.
+[1400592077] Auto-save of retention data completed successfully.
+[1400595677] Auto-save of retention data completed successfully.
+[1400596727] SERVICE ALERT: bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;CRITICAL;SOFT;1;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400596787] SERVICE ALERT: bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;CRITICAL;SOFT;2;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400596847] SERVICE ALERT: bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;CRITICAL;SOFT;3;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400596907] SERVICE ALERT: bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;CRITICAL;HARD;4;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400596907] SERVICE NOTIFICATION: mbutler;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;CRITICAL;notify-service-by-email;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400596907] SERVICE NOTIFICATION: lirimie;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;CRITICAL;notify-service-by-email;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400596907] SERVICE NOTIFICATION: pclavel;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;CRITICAL;notify-service-by-email;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400596907] SERVICE NOTIFICATION: cburge;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;CRITICAL;notify-service-by-email;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400596907] SERVICE NOTIFICATION: gmcdaid;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;CRITICAL;notify-service-by-sms;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400596907] SERVICE NOTIFICATION: gmcdaid;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;CRITICAL;notify-service-by-email;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400596907] SERVICE NOTIFICATION: abrinyov;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;CRITICAL;notify-service-by-sms;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400596908] SERVICE NOTIFICATION: abrinyov;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;CRITICAL;notify-service-by-email;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400596908] SERVICE NOTIFICATION: mnevzorova;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;CRITICAL;notify-service-by-sms;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400596909] SERVICE NOTIFICATION: mnevzorova;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;CRITICAL;notify-service-by-email;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400596909] SERVICE NOTIFICATION: nagiosadmin;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;CRITICAL;notify-service-by-email;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400597797] SERVICE ALERT: bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;SOFT;1;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400597857] SERVICE ALERT: bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;OK;SOFT;2;OK: Value is 2001.000
+[1400598757] SERVICE ALERT: bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;SOFT;1;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598817] SERVICE ALERT: bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;SOFT;2;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598837] SERVICE ALERT: bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;SOFT;1;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598877] SERVICE ALERT: bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;SOFT;3;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598897] SERVICE ALERT: bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;SOFT;2;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598937] SERVICE ALERT: bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;HARD;4;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598937] SERVICE NOTIFICATION: mbutler;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598937] SERVICE NOTIFICATION: lirimie;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598937] SERVICE NOTIFICATION: pclavel;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598937] SERVICE NOTIFICATION: cburge;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598937] SERVICE NOTIFICATION: gmcdaid;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;notify-service-by-sms;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598937] SERVICE NOTIFICATION: gmcdaid;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598937] SERVICE NOTIFICATION: abrinyov;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;notify-service-by-sms;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598938] SERVICE NOTIFICATION: abrinyov;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598938] SERVICE NOTIFICATION: mnevzorova;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;notify-service-by-sms;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598939] SERVICE NOTIFICATION: mnevzorova;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598939] SERVICE NOTIFICATION: nagiosadmin;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400598957] SERVICE ALERT: bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;SOFT;3;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400599017] SERVICE ALERT: bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;HARD;4;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400599017] SERVICE NOTIFICATION: mbutler;bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400599017] SERVICE NOTIFICATION: lirimie;bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400599017] SERVICE NOTIFICATION: pclavel;bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400599017] SERVICE NOTIFICATION: cburge;bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400599017] SERVICE NOTIFICATION: gmcdaid;bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;notify-service-by-sms;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400599017] SERVICE NOTIFICATION: gmcdaid;bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400599017] SERVICE NOTIFICATION: abrinyov;bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;notify-service-by-sms;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400599018] SERVICE NOTIFICATION: abrinyov;bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400599018] SERVICE NOTIFICATION: mnevzorova;bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;notify-service-by-sms;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400599019] SERVICE NOTIFICATION: mnevzorova;bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400599019] SERVICE NOTIFICATION: nagiosadmin;bcd.mttnow.com;APP - Registrations per hour - ELB;CRITICAL;notify-service-by-email;CRITICAL: 500 Connect failed: connect: Connection refused: Connection refused
+[1400599277] Auto-save of retention data completed successfully.
+[1400600137] SERVICE ALERT: bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;OK;HARD;4;OK: Value is 4281.000
+[1400600137] SERVICE NOTIFICATION: mbutler;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;OK;notify-service-by-email;OK: Value is 4281.000
+[1400600137] SERVICE NOTIFICATION: lirimie;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;OK;notify-service-by-email;OK: Value is 4281.000
+[1400600137] SERVICE NOTIFICATION: pclavel;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;OK;notify-service-by-email;OK: Value is 4281.000
+[1400600137] SERVICE NOTIFICATION: cburge;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;OK;notify-service-by-email;OK: Value is 4281.000
+[1400600137] SERVICE NOTIFICATION: gmcdaid;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;OK;notify-service-by-sms;OK: Value is 4281.000
+[1400600137] SERVICE NOTIFICATION: gmcdaid;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;OK;notify-service-by-email;OK: Value is 4281.000
+[1400600137] SERVICE NOTIFICATION: abrinyov;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;OK;notify-service-by-sms;OK: Value is 4281.000
+[1400600138] SERVICE NOTIFICATION: abrinyov;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;OK;notify-service-by-email;OK: Value is 4281.000
+[1400600138] SERVICE NOTIFICATION: mnevzorova;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;OK;notify-service-by-sms;OK: Value is 4281.000
+[1400600139] SERVICE NOTIFICATION: mnevzorova;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;OK;notify-service-by-email;OK: Value is 4281.000
+[1400600139] SERVICE NOTIFICATION: nagiosadmin;bcd.mttnow.com;APP - Last Registration - s1-sc1-c-use;OK;notify-service-by-email;OK: Value is 4281.000
+[1400600207] SERVICE ALERT: bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;OK;HARD;4;WebInject OK - All tests passed successfully in 1.962 seconds
+[1400600207] SERVICE NOTIFICATION: mbutler;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;OK;notify-service-by-email;WebInject OK - All tests passed successfully in 1.962 seconds
+[1400600207] SERVICE NOTIFICATION: lirimie;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;OK;notify-service-by-email;WebInject OK - All tests passed successfully in 1.962 seconds
+[1400600207] SERVICE NOTIFICATION: pclavel;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;OK;notify-service-by-email;WebInject OK - All tests passed successfully in 1.962 seconds
+[1400600207] SERVICE NOTIFICATION: cburge;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;OK;notify-service-by-email;WebInject OK - All tests passed successfully in 1.962 seconds
+[1400600207] SERVICE NOTIFICATION: gmcdaid;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;OK;notify-service-by-sms;WebInject OK - All tests passed successfully in 1.962 seconds
+[1400600207] SERVICE NOTIFICATION: gmcdaid;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;OK;notify-service-by-email;WebInject OK - All tests passed successfully in 1.962 seconds
+[1400600207] SERVICE NOTIFICATION: abrinyov;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;OK;notify-service-by-sms;WebInject OK - All tests passed successfully in 1.962 seconds
+[1400600208] SERVICE NOTIFICATION: abrinyov;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;OK;notify-service-by-email;WebInject OK - All tests passed successfully in 1.962 seconds
+[1400600208] SERVICE NOTIFICATION: mnevzorova;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;OK;notify-service-by-sms;WebInject OK - All tests passed successfully in 1.962 seconds
+[1400600209] SERVICE NOTIFICATION: mnevzorova;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;OK;notify-service-by-email;WebInject OK - All tests passed successfully in 1.962 seconds
+[1400600209] SERVICE NOTIFICATION: nagiosadmin;bcd.mttnow.com;APP - Component Check - s1-sc1-c-use;OK;notify-service-by-email;WebInject OK - All tests passed successfully in 1.962 seconds
+[1400600227] SERVICE ALERT: bcd.mttnow.com;APP - Registrations per hour - ELB;OK;HARD;4;OK: Value is 109.000
+[1400600227] SERVICE NOTIFICATION: mbutler;bcd.mttnow.com;APP - Registrations per hour - ELB;OK;notify-service-by-email;OK: Value is 109.000
+[1400600227] SERVICE NOTIFICATION: lirimie;bcd.mttnow.com;APP - Registrations per hour - ELB;OK;notify-service-by-email;OK: Value is 109.000
+[1400600227] SERVICE NOTIFICATION: pclavel;bcd.mttnow.com;APP - Registrations per hour - ELB;OK;notify-service-by-email;OK: Value is 109.000
+[1400600227] SERVICE NOTIFICATION: cburge;bcd.mttnow.com;APP - Registrations per hour - ELB;OK;notify-service-by-email;OK: Value is 109.000
+[1400600227] SERVICE NOTIFICATION: gmcdaid;bcd.mttnow.com;APP - Registrations per hour - ELB;OK;notify-service-by-sms;OK: Value is 109.000
+[1400600228] SERVICE NOTIFICATION: gmcdaid;bcd.mttnow.com;APP - Registrations per hour - ELB;OK;notify-service-by-email;OK: Value is 109.000
+[1400600228] SERVICE NOTIFICATION: abrinyov;bcd.mttnow.com;APP - Registrations per hour - ELB;OK;notify-service-by-sms;OK: Value is 109.000
+[1400600228] SERVICE NOTIFICATION: abrinyov;bcd.mttnow.com;APP - Registrations per hour - ELB;OK;notify-service-by-email;OK: Value is 109.000
+[1400600228] SERVICE NOTIFICATION: mnevzorova;bcd.mttnow.com;APP - Registrations per hour - ELB;OK;notify-service-by-sms;OK: Value is 109.000
+[1400600229] SERVICE NOTIFICATION: mnevzorova;bcd.mttnow.com;APP - Registrations per hour - ELB;OK;notify-service-by-email;OK: Value is 109.000
+[1400600229] SERVICE NOTIFICATION: nagiosadmin;bcd.mttnow.com;APP - Registrations per hour - ELB;OK;notify-service-by-email;OK: Value is 109.000
+[1400602877] Auto-save of retention data completed successfully.
+[1400602897] SERVICE ALERT: bcd.mttnow.com;APP - Component Check - s2-sc2-d-use;CRITICAL;SOFT;1;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400602957] SERVICE ALERT: bcd.mttnow.com;APP - Component Check - s2-sc2-d-use;CRITICAL;SOFT;2;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400603097] SERVICE ALERT: bcd.mttnow.com;APP - Component Check - s2-sc2-d-use;CRITICAL;SOFT;3;WebInject CRITICAL - Backend Server - Unable to obtain status
+[1400603107] SERVICE ALERT: bcd.mttnow.com;APP - Component Check - s2-sc2-d-use;OK;SOFT;4;WebInject OK - All tests passed successfully in 2.382 seconds
+[1400605207] SERVICE ALERT: mobile.jetstar.com;MW - Checkins per hour;WARNING;SOFT;1;WARNING: Value is 8.000
+[1400605447] SERVICE ALERT: mobile.jetstar.com;MW - Checkins per hour;WARNING;SOFT;2;WARNING: Value is 8.000
+[1400605687] SERVICE ALERT: mobile.jetstar.com;MW - Checkins per hour;WARNING;SOFT;3;WARNING: Value is 8.000
+[1400605927] SERVICE ALERT: mobile.jetstar.com;MW - Checkins per hour;WARNING;HARD;4;WARNING: Value is 7.000
+[1400605927] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Checkins per hour;WARNING;notify-service-by-sms;WARNING: Value is 7.000
+[1400605927] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Checkins per hour;WARNING;notify-service-by-email;WARNING: Value is 7.000
+[1400605927] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Checkins per hour;WARNING;notify-service-by-sms;WARNING: Value is 7.000
+[1400605928] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Checkins per hour;WARNING;notify-service-by-email;WARNING: Value is 7.000
+[1400605928] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Checkins per hour;WARNING;notify-service-by-sms;WARNING: Value is 7.000
+[1400605929] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Checkins per hour;WARNING;notify-service-by-email;WARNING: Value is 7.000
+[1400605929] SERVICE NOTIFICATION: nagiosadmin;mobile.jetstar.com;MW - Checkins per hour;WARNING;notify-service-by-email;WARNING: Value is 7.000
+[1400606477] Auto-save of retention data completed successfully.
+[1400609527] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Checkins per hour;WARNING;notify-service-by-sms;WARNING: Value is 8.000
+[1400609527] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Checkins per hour;WARNING;notify-service-by-email;WARNING: Value is 8.000
+[1400609527] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Checkins per hour;WARNING;notify-service-by-sms;WARNING: Value is 8.000
+[1400609528] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Checkins per hour;WARNING;notify-service-by-email;WARNING: Value is 8.000
+[1400609528] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Checkins per hour;WARNING;notify-service-by-sms;WARNING: Value is 8.000
+[1400609529] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Checkins per hour;WARNING;notify-service-by-email;WARNING: Value is 8.000
+[1400609529] SERVICE NOTIFICATION: nagiosadmin;mobile.jetstar.com;MW - Checkins per hour;WARNING;notify-service-by-email;WARNING: Value is 8.000
+[1400609777] SERVICE ALERT: mobile.jetstar.com;MW - S1 - Flight Status;WARNING;SOFT;1;WARNING: Value is 1215.000
+[1400610017] SERVICE ALERT: mobile.jetstar.com;MW - S1 - Flight Status;OK;SOFT;2;OK: Value is 161.000
+[1400610077] Auto-save of retention data completed successfully.
+[1400610127] SERVICE ALERT: mobile.jetstar.com;MW - Checkins per hour;OK;HARD;4;OK: Value is 11.000
+[1400610127] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Checkins per hour;OK;notify-service-by-sms;OK: Value is 11.000
+[1400610127] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Checkins per hour;OK;notify-service-by-email;OK: Value is 11.000
+[1400610127] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Checkins per hour;OK;notify-service-by-sms;OK: Value is 11.000
+[1400610128] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Checkins per hour;OK;notify-service-by-email;OK: Value is 11.000
+[1400610128] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Checkins per hour;OK;notify-service-by-sms;OK: Value is 11.000
+[1400610128] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Checkins per hour;OK;notify-service-by-email;OK: Value is 11.000
+[1400610128] SERVICE NOTIFICATION: nagiosadmin;mobile.jetstar.com;MW - Checkins per hour;OK;notify-service-by-email;OK: Value is 11.000
+[1400612407] SERVICE ALERT: m.flybe.com;HTTP - Apache;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1400612467] SERVICE ALERT: m.flybe.com;HTTP - Apache;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1400612477] SERVICE ALERT: m.atlantisthepalm.com;MW - Special Offers;CRITICAL;SOFT;1;WebInject CRITICAL - Unable to open Specials Page
+[1400612487] SERVICE ALERT: m.easyjet.com;HTTP;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1400612487] SERVICE ALERT: m.transavia.com;HTTP - Apache;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1400612507] SERVICE ALERT: m.atlantisthepalm.com;HTTPS;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1400612507] SERVICE ALERT: m.easyjet.com;Apps - HTTPS;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1400612517] SERVICE ALERT: eleventh-hour.com;HTTP - Admin Europe;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1400612517] SERVICE ALERT: m.atlantisthepalm.com;HTTP;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1400612527] SERVICE ALERT: m.easyjet.com;HTTP - V2.4.0 check;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1400612527] SERVICE ALERT: m.flybe.com;HTTP - Apache;CRITICAL;SOFT;3;CRITICAL - Socket timeout after 10 seconds
+[1400612547] SERVICE ALERT: m.easyjet.com;HTTPS;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1400612547] SERVICE ALERT: m.easyjet.com;HTTP;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1400612547] SERVICE ALERT: m.transavia.com;HTTP - Apache;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1400612567] SERVICE ALERT: m.atlantisthepalm.com;HTTPS;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1400612567] SERVICE ALERT: m.easyjet.com;Apps - HTTPS;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1400612577] SERVICE ALERT: eleventh-hour.com;HTTP - Admin Europe;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1400612577] SERVICE ALERT: m.atlantisthepalm.com;HTTP;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1400612587] SERVICE ALERT: m.easyjet.com;HTTP - V2.4.0 check;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1400612587] SERVICE ALERT: m.flybe.com;HTTP - Apache;CRITICAL;HARD;4;CRITICAL - Socket timeout after 10 seconds
+[1400612587] SERVICE NOTIFICATION: gmcdaid;m.flybe.com;HTTP - Apache;CRITICAL;notify-service-by-sms;CRITICAL - Socket timeout after 10 seconds
+[1400612591] SERVICE NOTIFICATION: gmcdaid;m.flybe.com;HTTP - Apache;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1400612591] SERVICE NOTIFICATION: abrinyov;m.flybe.com;HTTP - Apache;CRITICAL;notify-service-by-sms;CRITICAL - Socket timeout after 10 seconds
+[1400612596] SERVICE NOTIFICATION: abrinyov;m.flybe.com;HTTP - Apache;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1400612596] SERVICE NOTIFICATION: mnevzorova;m.flybe.com;HTTP - Apache;CRITICAL;notify-service-by-sms;CRITICAL - Socket timeout after 10 seconds
+[1400612602] SERVICE NOTIFICATION: mnevzorova;m.flybe.com;HTTP - Apache;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1400612602] SERVICE NOTIFICATION: nagiosadmin;m.flybe.com;HTTP - Apache;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1400612602] SERVICE NOTIFICATION: ngleeson;m.flybe.com;HTTP - Apache;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1400612602] SERVICE NOTIFICATION: jglennon;m.flybe.com;HTTP - Apache;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout after 10 seconds
+[1400612622] SERVICE ALERT: m.easyjet.com;HTTPS;CRITICAL;SOFT;2;CRITICAL - Socket timeout after 10 seconds
+[1400612622] SERVICE ALERT: m.easyjet.com;HTTP;CRITICAL;SOFT;3;CRITICAL - Socket timeout after 10 seconds
+[1400612622] SERVICE ALERT: m.transavia.com;HTTP - Apache;CRITICAL;SOFT;3;CRITICAL - Socket timeout after 10 seconds
+[1400612632] SERVICE ALERT: m.atlantisthepalm.com;HTTPS;CRITICAL;SOFT;3;CRITICAL - Socket timeout after 10 seconds
+[1400612632] SERVICE ALERT: m.easyjet.com;Apps - HTTPS;CRITICAL;SOFT;3;CRITICAL - Socket timeout after 10 seconds
+[1400612642] SERVICE ALERT: eleventh-hour.com;HTTP - Admin Europe;CRITICAL;SOFT;3;CRITICAL - Socket timeout after 10 seconds
+[1400612642] SERVICE ALERT: m.atlantisthepalm.com;HTTP;CRITICAL;SOFT;3;CRITICAL - Socket timeout after 10 seconds
+[1400612642] SERVICE ALERT: m.easyjet.com;HTTP - V2.4.0 check;CRITICAL;SOFT;3;CRITICAL - Socket timeout after 10 seconds
+[1400612642] SERVICE ALERT: b2b.easyjet.com;HTTPS;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1400612652] SERVICE ALERT: m.easyjet.com;Apps - HTTP;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1400612652] SERVICE ALERT: helpdesk.mttnow.com;HTTP;CRITICAL;SOFT;1;CRITICAL - Socket timeout after 10 seconds
+[1400612672] SERVICE ALERT: m.easyjet.com;HTTP;OK;SOFT;4;HTTP OK - HTTP/1.1 302 Found - 0.298 second response time
+[1400612672] SERVICE ALERT: m.transavia.com;HTTP - Apache;OK;SOFT;4;HTTP OK - HTTP/1.1 302 Moved Temporarily - 0.537 second response time
+[1400612672] SERVICE ALERT: m.easyjet.com;HTTPS;OK;SOFT;3;HTTP OK - HTTP/1.1 302 Found - 0.578 second response time
+[1400612682] SERVICE ALERT: m.atlantisthepalm.com;HTTPS;OK;SOFT;4;HTTP OK - HTTP/1.1 302 Found - 0.691 second response time
+[1400612682] SERVICE ALERT: m.easyjet.com;Apps - HTTPS;OK;SOFT;4;HTTP OK - HTTP/1.1 302 Found - 0.530 second response time
+[1400612692] SERVICE ALERT: m.atlantisthepalm.com;MW - Special Offers;OK;SOFT;2;WebInject OK - All tests passed successfully in 0.504 seconds
+[1400612692] SERVICE ALERT: m.atlantisthepalm.com;HTTP;OK;SOFT;4;HTTP OK - HTTP/1.1 302 Found - 0.280 second response time
+[1400612692] SERVICE ALERT: eleventh-hour.com;HTTP - Admin Europe;OK;SOFT;4;HTTP OK HTTP/1.1 200 OK - 14568 bytes in 0.828 seconds
+[1400612692] SERVICE ALERT: m.easyjet.com;HTTP - V2.4.0 check;OK;SOFT;4;HTTP OK HTTP/1.1 200 OK - 5455 bytes in 0.292 seconds
+[1400612692] SERVICE ALERT: b2b.easyjet.com;HTTPS;OK;SOFT;2;HTTP OK HTTP/1.1 200 OK - 3328 bytes in 0.736 seconds
+[1400612702] SERVICE ALERT: m.easyjet.com;Apps - HTTP;OK;SOFT;2;HTTP OK - HTTP/1.1 302 Found - 0.254 second response time
+[1400612702] SERVICE ALERT: helpdesk.mttnow.com;HTTP;OK;SOFT;2;HTTP OK - HTTP/1.1 302 Found - 0.307 second response time
+[1400612882] SERVICE ALERT: m.flybe.com;HTTP - Apache;OK;HARD;4;HTTP OK - HTTP/1.1 302 Found - 0.307 second response time
+[1400612882] SERVICE NOTIFICATION: gmcdaid;m.flybe.com;HTTP - Apache;OK;notify-service-by-sms;HTTP OK - HTTP/1.1 302 Found - 0.307 second response time
+[1400612882] SERVICE NOTIFICATION: gmcdaid;m.flybe.com;HTTP - Apache;OK;notify-service-by-email;HTTP OK - HTTP/1.1 302 Found - 0.307 second response time
+[1400612882] SERVICE NOTIFICATION: abrinyov;m.flybe.com;HTTP - Apache;OK;notify-service-by-sms;HTTP OK - HTTP/1.1 302 Found - 0.307 second response time
+[1400612883] SERVICE NOTIFICATION: abrinyov;m.flybe.com;HTTP - Apache;OK;notify-service-by-email;HTTP OK - HTTP/1.1 302 Found - 0.307 second response time
+[1400612883] SERVICE NOTIFICATION: mnevzorova;m.flybe.com;HTTP - Apache;OK;notify-service-by-sms;HTTP OK - HTTP/1.1 302 Found - 0.307 second response time
+[1400612884] SERVICE NOTIFICATION: mnevzorova;m.flybe.com;HTTP - Apache;OK;notify-service-by-email;HTTP OK - HTTP/1.1 302 Found - 0.307 second response time
+[1400612884] SERVICE NOTIFICATION: nagiosadmin;m.flybe.com;HTTP - Apache;OK;notify-service-by-email;HTTP OK - HTTP/1.1 302 Found - 0.307 second response time
+[1400612884] SERVICE NOTIFICATION: ngleeson;m.flybe.com;HTTP - Apache;OK;notify-service-by-email;HTTP OK - HTTP/1.1 302 Found - 0.307 second response time
+[1400612884] SERVICE NOTIFICATION: jglennon;m.flybe.com;HTTP - Apache;OK;notify-service-by-email;HTTP OK - HTTP/1.1 302 Found - 0.307 second response time
+[1400613677] Auto-save of retention data completed successfully.
+[1400614702] SERVICE ALERT: m.jumeirah.com;MW - Standard Booking;WARNING;SOFT;1;WARNING : sum:119662 : 119.662 seconds to complete. (warning 60)
+[1400614832] SERVICE ALERT: m.jumeirah.com;MW - Standard Booking;OK;SOFT;2;OK : sum:14721 : 14.721 seconds to complete.
+[1400617277] Auto-save of retention data completed successfully.
+[1400619042] SERVICE ALERT: latam.mttnow.com;NTP Offset - s1-sc1-b-usw;WARNING;SOFT;1;NTP WARNING: Offset 0.0502820015 secs
+[1400619162] SERVICE ALERT: latam.mttnow.com;NTP Offset - s1-sc1-b-usw;OK;SOFT;2;NTP OK: Offset -0.0003800392151 secs
+[1400620877] Auto-save of retention data completed successfully.
+[1400622002] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;WARNING;SOFT;1;WARNING: Value is 5.000
+[1400622102] SERVICE ALERT: m.jumeirah.com;MW - Standard Booking;WARNING;SOFT;1;WARNING : sum:78983 : 78.983 seconds to complete. (warning 60)
+[1400622242] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;WARNING;SOFT;2;WARNING: Value is 4.000
+[1400622282] SERVICE ALERT: m.jumeirah.com;MW - Standard Booking;OK;SOFT;2;OK : sum:15419 : 15.419 seconds to complete.
+[1400622482] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;WARNING;SOFT;3;WARNING: Value is 4.000
+[1400622722] SERVICE ALERT: mobile.jetstar.com;MW - Bookings per day JP;WARNING;HARD;4;WARNING: Value is 4.000
+[1400622722] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-sms;WARNING: Value is 4.000
+[1400622724] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 4.000
+[1400622724] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-sms;WARNING: Value is 4.000
+[1400622724] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 4.000
+[1400622724] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-sms;WARNING: Value is 4.000
+[1400622725] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 4.000
+[1400622725] SERVICE NOTIFICATION: nagiosadmin;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 4.000
+[1400624477] Auto-save of retention data completed successfully.
+[1400626322] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-sms;WARNING: Value is 4.000
+[1400626322] SERVICE NOTIFICATION: gmcdaid;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 4.000
+[1400626322] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-sms;WARNING: Value is 4.000
+[1400626323] SERVICE NOTIFICATION: abrinyov;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 4.000
+[1400626323] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-sms;WARNING: Value is 4.000
+[1400626324] SERVICE NOTIFICATION: mnevzorova;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 4.000
+[1400626324] SERVICE NOTIFICATION: nagiosadmin;mobile.jetstar.com;MW - Bookings per day JP;WARNING;notify-service-by-email;WARNING: Value is 4.000
