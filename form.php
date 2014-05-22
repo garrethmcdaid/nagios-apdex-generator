@@ -17,7 +17,7 @@
 <input type="hidden" name="end" value="<?php echo date('Y-m-d', strtotime('yesterday')); ?>">
 
 
-<submit name="submit" value="Get Score">
+<input type="submit" name="submit" value="Get Score">
 
 
 </form>
