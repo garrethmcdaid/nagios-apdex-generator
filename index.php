@@ -36,7 +36,7 @@ $data = $DB->get_results($q);
 
 //print_r($data);
 
-$q = "SELECT * FROM logentries WHERE date < '" . $data[0]->date . "' AND service = '" . $service . "' AND monitor = '" . $monitor . "' ORDER BY date DESC LIMIT 1";
+$q = "SELECT * FROM logentries WHERE date < '" . $data[0]->date . "' AND service LIKE '%" . $service . "%' AND monitor = '" . $monitor . "' ORDER BY date DESC LIMIT 1";
 $r = $DB->get_result($q);
 
 if (!$r) die("Insufficient data\n");
