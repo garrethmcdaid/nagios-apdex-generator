@@ -40,10 +40,14 @@ if (empty($_REQUEST['service'])) {
 	$q = "SELECT * FROM logentries WHERE date > '" . $start . " 00:00:00' AND date < '" . $end . " 23:59:59' AND service LIKE '%" . $service . "%' AND monitor = '" . $monitor . "'";
 	$data = $DB->get_results($q);
 	
+	echo $q . "\n";
+	
 	//print_r($data);
 	
 	$q = "SELECT * FROM logentries WHERE date < '" . $data[0]->date . "' AND service LIKE '%" . $service . "%' AND monitor = '" . $monitor . "' ORDER BY date DESC LIMIT 1";
 	$r = $DB->get_result($q);
+	
+	echo $q . "\n";
 	
 	if (!$r) die("Insufficient data\n");
 	
