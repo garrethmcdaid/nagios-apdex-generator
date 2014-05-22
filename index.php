@@ -81,7 +81,7 @@ foreach ($data as $k => $v) {
 			break;
 		case "WARNING":
 			//echo "Previous type = WARNING\n";
-			$total_warning = $total_warninng + $i;
+			$total_warning = $total_warning + $i;
 			break;
 		case "CRITICAL":
 			//echo "Previous type = CRITICAL\n";
