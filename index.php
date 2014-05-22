@@ -64,27 +64,27 @@ foreach ($data as $k => $v) {
 	if ($k === 0) continue;
 
 	$p = $k -1;
-	echo "Previous key = " . $p . "\n"; 
+	//echo "Previous key = " . $p . "\n"; 
 	
-	echo "Current key seconds = " . $v->seconds . "\n";
-	echo "Previous key seconds = " . $data[$p]->seconds . "\n";
+	//echo "Current key seconds = " . $v->seconds . "\n";
+	//echo "Previous key seconds = " . $data[$p]->seconds . "\n";
 
 	
 	$i = $v->seconds - $data[$p]->seconds;
-	echo "Interval = " . $i . "\n";
+	//echo "Interval = " . $i . "\n";
 
 	switch($data[$p]->type) {
 		
 		case "OK":
-			echo "Previous type = OK\n";
+			//echo "Previous type = OK\n";
 			$total_ok = $total_ok + $i;
 			break;
 		case "WARNING":
-			echo "Previous type = WARNING\n";
+			//echo "Previous type = WARNING\n";
 			$total_warning = $total_warninng + $i;
 			break;
 		case "CRITICAL":
-			echo "Previous type = CRITICAL\n";
+			//echo "Previous type = CRITICAL\n";
 			$total_critical = $total_critical + $i;
 			break;
 		
