@@ -3,7 +3,7 @@
 date_default_timezone_set('Europe/Dublin');
 
 include('header.php');
-if (empty($_REQUEST)) {
+if (empty($_REQUEST['service'])) {
 	include('form.php');	
 }
 include('footer.php');
