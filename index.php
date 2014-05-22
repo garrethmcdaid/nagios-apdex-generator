@@ -2,6 +2,12 @@
 
 date_default_timezone_set('Europe/Dublin');
 
+include('header.php');
+if (empty($_REQUEST)) {
+	include('form.php');	
+}
+include('footer.php');
+
 //VARS
 $total_ok = 0;
 $total_warning = 0;
@@ -115,6 +121,8 @@ switch(end($data)->type) {
 $samples_ok = number_format($total_ok/60,"0",".","")/5;
 $samples_warning = number_format($total_warning/60,"0",".","")/5;
 $samples_critical = number_format($total_critical/60,"0",".","")/5;
+
+echo "~~~~~~~~~~~~~~~~~~~\n";
 
 echo "SAMPLES: " . $samples . "\n";
 
