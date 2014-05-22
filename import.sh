@@ -18,9 +18,9 @@ while read line;
 		then
 			d=`date -r $dt +"%Y-%m-%d %H:%M:%S"`
 		else
-			`d=date -d @dt +"%Y-%m-%d %H:%M:%S"`
+			d=`date -d @$dt +"%Y-%m-%d %H:%M:%S"`
 		fi
-	if [[ "${array[1]}" =~ "SERVICE ALERT" ]];
+	if [[ "${array[1]}" =~ "SERVICE" ]];
 		then
 			sql="INSERT INTO logentries (date,seconds,service,monitor,type,detail) values ('$d',$dt,'${array[1]}','${array[2]}','${array[3]}','${array[6]}');"
 			if [[ "$1" == "-v" ]]; then echo $sql; fi;
