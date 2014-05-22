@@ -7,6 +7,7 @@
 <div style="height:20px;"></div>
 
 <select name="monitor">
+	<option value="Apdex Monitor">Apdex Monitor
 	<option value="Apdex - Email">Apdex - Email
 	<option value="Apdex - Flight Status">Apdex - Flight Status
 </select>
