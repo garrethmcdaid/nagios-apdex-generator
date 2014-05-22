@@ -31,7 +31,7 @@ if (!empty($_REQUEST)) {
 
 $samples = number_format((date('U',strtotime($end . " 23:59:59")) - date('U',strtotime($start . " 00:00:00"))) / 300,"0",".","");
 	
-$q = "SELECT * FROM logentries WHERE date > '" . $start . " 00:00:00' AND date < '" . $end . " 23:59:59' AND service = '" . $service . "' AND monitor = '" . $monitor . "'";
+$q = "SELECT * FROM logentries WHERE date > '" . $start . " 00:00:00' AND date < '" . $end . " 23:59:59' AND service LIKE '%" . $service . "%' AND monitor = '" . $monitor . "'";
 $data = $DB->get_results($q);
 
 //print_r($data);
