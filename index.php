@@ -5,6 +5,12 @@ date_default_timezone_set('Europe/Dublin');
 include('db.class.php');
 global $DB;
 
+//DATABASE
+$GLOBALS['dbserver'] = '127.0.0.1';
+$GLOBALS['dbname'] = 'nagios';
+$GLOBALS['dbuser'] = 'root';
+$GLOBALS['dbpass'] = '';
+
 include('header.php');
 
 if (empty($_REQUEST['service'])) {
@@ -15,13 +21,6 @@ if (empty($_REQUEST['service'])) {
 	$total_ok = 0;
 	$total_warning = 0;
 	$total_critical = 0;
-	
-	//DATABASE
-	$GLOBALS['dbserver'] = '127.0.0.1';
-	$GLOBALS['dbname'] = 'nagios';
-	$GLOBALS['dbuser'] = 'root';
-	$GLOBALS['dbpass'] = '';
-	
 	
 	if (!empty($_REQUEST)) {
 		$start = $_REQUEST['start'];

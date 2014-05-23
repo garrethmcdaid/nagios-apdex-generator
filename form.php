@@ -1,18 +1,17 @@
 <?php
 
-$q = "SELECT * FROM logentries WHERE date > date_sub(now(), interval 365 day)";
+$q = "SELECT * FROM logentries WHERE date > date_sub(now(), interval 365 day) AND service NOT LIKE '%NOTIFICATION%'";
 $log = $DB->get_results($q);
 $services = array();
 
 foreach ($log as $k => $v) {
 	$service = explode(": ",$v->service);
-	$services[$service[0]] = 1;		
+        if (substr($service[1],"SERVICE")) {
+		$services[$service[1]] = 1;
+        }		
 }
 
-print_r($services);
-
 ?>
-
 
 <form method="POST">
 
