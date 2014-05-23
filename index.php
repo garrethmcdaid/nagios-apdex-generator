@@ -2,6 +2,9 @@
 
 date_default_timezone_set('Europe/Dublin');
 
+include('db.class.php');
+global $DB;
+
 include('header.php');
 
 if (empty($_REQUEST['service'])) {
@@ -20,9 +23,6 @@ if (empty($_REQUEST['service'])) {
 	$GLOBALS['dbpass'] = '';
 	
 	
-	include('db.class.php');
-	global $DB;
-	
 	if (!empty($_REQUEST)) {
 		$start = $_REQUEST['start'];
 		$end = $_REQUEST['end'];
@@ -37,7 +37,7 @@ if (empty($_REQUEST['service'])) {
 	
 	$samples = number_format((date('U',strtotime($end . " 23:59:59")) - date('U',strtotime($start . " 00:00:00"))) / 300,"0",".","");
 		
-	$q = "SELECT * FROM logentries WHERE date >= '" . $start . " 00:00:00' AND date < '" . $end . " 23:59:59' AND service LIKE '%" . $service . "%' AND monitor = '" . $monitor . "'";
+	$q = "SELECT * FROM logentries WHERE date >= '" . $start . " 00:00:00' AND date <= '" . $end . " 23:59:59' AND service LIKE '%" . $service . "%' AND monitor = '" . $monitor . "'";
 	$data = $DB->get_results($q);
 	
 	echo $q . "<br>";
