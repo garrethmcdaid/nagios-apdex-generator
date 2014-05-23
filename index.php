@@ -49,7 +49,7 @@ if (empty($_REQUEST['service'])) {
 	
 			$samples = number_format($interval/300,"0",".","");
 			
-			$q = "SELECT * FROM logentries WHERE seconds >= " . date('U', strtotime($v[0])) . " AND seconds < " . date('U', strtotime($v[1])) . " AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "'";
+			$q = "SELECT * FROM logentries WHERE seconds >= " . date('U', strtotime($v[0])) . " AND seconds <= " . date('U', strtotime($v[1])) . " AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "'";
 			$data = $DB->get_results($q);
 			
 			echo $q . "<br>";
