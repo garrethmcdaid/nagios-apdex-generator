@@ -113,10 +113,8 @@ if (empty($_REQUEST['service'])) {
 				}
 				
 			}
-			
-			$de = date('U',strtotime($end . " 23:59:59"));
-			
-			$i = $de - end($data)->seconds;
+						
+			$i = date('U',strtotime($v[1])) - end($data)->seconds;
 			
 			switch(end($data)->type) {
 				
