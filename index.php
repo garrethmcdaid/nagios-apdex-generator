@@ -62,10 +62,8 @@ if (empty($_REQUEST['service'])) {
 			echo $q . "<br>";
 		
 			if (!$r) { echo("Insufficient previous data for " . $monitor . " - " . $report . "<br>"); continue;} 
-		
-			$ds = date('U',strtotime($v[0]));
-		
-			$i = $data[0]->seconds - $ds;
+				
+			$i = $data[0]->seconds - date('U',strtotime($v[0]));
 			
 			echo $i . "<br>";
 		
@@ -143,7 +141,7 @@ if (empty($_REQUEST['service'])) {
 			
 			echo "~~~~~~~~~~~~~~~~~~~<br>";
 	
-			echo $monitor . " - " . $report . "<br>";
+			echo $_REQUEST['service'] . " - " . $monitor . " - " . $report . "<br>";
 			
 			echo "~~~~~~~~~~~~~~~~~~~<br>";
 			
@@ -174,6 +172,9 @@ if (empty($_REQUEST['service'])) {
 			echo "APDEX FORMULA: " . $samples_ok . " + " . "(" . $samples_warning . "/2) / " . $samples . "<br>";
 			
 			echo "APDEX SCORE: " . number_format($apdex,"4",".","") . "<br>";
+			
+			echo "~~~~~~~~~~~~~~~~~~~<br>";
+
 		
 	
 		}

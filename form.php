@@ -1,6 +1,6 @@
 <?php
 
-$q = "SELECT * FROM logentries WHERE date > date_sub(now(), interval 3 day) AND service NOT LIKE '%NOTIFICATION%'";
+$q = "SELECT * FROM logentries WHERE date > date_sub(now(), interval 366 day) AND service NOT LIKE '%NOTIFICATION%'";
 $log = $DB->get_results($q);
 $services = array();
 
