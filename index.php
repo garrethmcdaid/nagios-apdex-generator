@@ -81,7 +81,7 @@ if (empty($_REQUEST['service'])) {
 			
 			}
 		
-			foreach ($data as $k => $v) {
+			foreach ($data as $k => $vv) {
 			
 				if ($k === 0) continue;
 			
@@ -92,7 +92,7 @@ if (empty($_REQUEST['service'])) {
 				//echo "Previous key seconds = " . $data[$p]->seconds . "<br>";
 			
 				
-				$i = $v->seconds - $data[$p]->seconds;
+				$i = $vv->seconds - $data[$p]->seconds;
 				//echo "Interval = " . $i . "<br>";
 			
 				switch($data[$p]->type) {
