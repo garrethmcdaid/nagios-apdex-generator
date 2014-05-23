@@ -52,12 +52,10 @@ if (empty($_REQUEST['service'])) {
 			$q = "SELECT * FROM logentries WHERE seconds >= " . date('U', strtotime($v[0])) . " AND seconds < " . date('U', strtotime($v[1])) . " AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "'";
 			$data = $DB->get_results($q);
 			
-			if (!$data) { echo("Insufficient general data for " . $monitor . " - " . $report . "<br>"); continue;} 
-		
 			echo $q . "<br>";
-		
-			//print_r($data);
 			
+			if (!$data) { echo("Insufficient general data for " . $monitor . " - " . $report . "<br>"); continue;} 
+					
 			$q = "SELECT * FROM logentries WHERE date < '" . date('Y-m-d H:i:s',strtotime($v[0])) . "' AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "' ORDER BY date DESC LIMIT 1";
 			$r = $DB->get_result($q);
 		
