@@ -184,7 +184,7 @@ if (empty($_REQUEST['service'])) {
 	
 		}
 
-		echo '</div><br>';
+		echo '</div><br style="clear:both;">';
 
 	}
 }
