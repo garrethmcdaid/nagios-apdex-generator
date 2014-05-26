@@ -56,14 +56,17 @@ if (empty($_REQUEST['service'])) {
 			
 			//echo $q . "<br>";
 			
-			if (!$data) { echo("No data for " . $monitor . " - " . $v[2] . "<br>"); continue;} 
+			echo '<div style="float:left;width:300px;height:auto;">';
+
+			
+			if (!$data) { echo("No data for " . $monitor . " - " . $v[2] . "<br></div>"); continue;} 
 					
 			$q = "SELECT * FROM logentries WHERE date < '" . date('Y-m-d H:i:s',strtotime($v[0])) . "' AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "' ORDER BY date DESC LIMIT 1";
 			$r = $DB->get_result($q);
 		
 			//echo $q . "<br>";
 		
-			if (!$r) { echo("Insufficient historical data for " . $monitor . " - " . $v[2] . "<br>"); continue;} 
+			if (!$r) { echo("Insufficient historical data for " . $monitor . " - " . $v[2] . "<br></div>"); continue;} 
 				
 			$i = $data[0]->seconds - date('U',strtotime($v[0]));
 			
@@ -137,12 +140,10 @@ if (empty($_REQUEST['service'])) {
 			$samples_ok = number_format($total_ok/60,"0",".","")/5;
 			$samples_warning = number_format($total_warning/60,"0",".","")/5;
 			$samples_critical = number_format($total_critical/60,"0",".","")/5;
-			
-			echo '<div style="float:left;width:300px;height:auto;">';
-	
+				
 			echo "<b>" . $_REQUEST['service'] . " | " . $monitor . " | " . $v[2] . "</b><br>";
 			
-			echo "~~~~~~~~~~~~~~~~~~~<br>";
+			echo "~~~~~~~~~~~~~~~~~~~<br>";	
 			
 			echo "SAMPLES: " . $samples . "<br>";
 			
