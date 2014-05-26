@@ -36,6 +36,8 @@ if (empty($_REQUEST['service'])) {
 	$reports['last_92_days'] = array('93 days ago 00:00','today', 'Last 92 days');
 	$reports['last_365_days'] = array('366 days ago 00:00','today', 'Last year');
 
+	echo "<b>" . $_REQUEST['service'] . "</b><br>";
+	
 	foreach ($monitors as $monitor => $v) {
 		
 		echo "<div>";
@@ -57,16 +59,12 @@ if (empty($_REQUEST['service'])) {
 			//echo $q . "<br>";
 			
 			echo '<div style="float:left;width:300px;height:auto;">';
-
-			
-			if (!$data) { echo("No data for " . $monitor . " - " . $v[2] . "<br>");} 
-					
+								
 			$q = "SELECT * FROM logentries WHERE date < '" . date('Y-m-d H:i:s',strtotime($v[0])) . "' AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "' ORDER BY date DESC LIMIT 1";
 			$r = $DB->get_result($q);
 		
 			//echo $q . "<br>";
 		
-			if (!$r) { echo("Insufficient historical data for " . $monitor . " - " . $v[2] . "<br>");} 
 				
 			$i = $data[0]->seconds - date('U',strtotime($v[0]));
 			
@@ -141,7 +139,7 @@ if (empty($_REQUEST['service'])) {
 			$samples_warning = number_format($total_warning/60,"0",".","")/5;
 			$samples_critical = number_format($total_critical/60,"0",".","")/5;
 				
-			echo "<b>" . $_REQUEST['service'] . " | " . $monitor . " | " . $v[2] . "</b><br>";
+			echo "<b>" . $monitor . " | " . $v[2] . "</b><br>";
 			
 			echo "~~~~~~~~~~~~~~~~~~~<br>";	
 			
@@ -174,6 +172,10 @@ if (empty($_REQUEST['service'])) {
 			echo "<b>APDEX SCORE: " . number_format($apdex,"4",".","") . "</b><br>";
 			
 			echo "~~~~~~~~~~~~~~~~~~~<br>";
+			
+			if (!$data) { echo("No data for " . $monitor . " - " . $v[2] . "<br>");} 
+			
+			if (!$r) { echo("Insufficient historical data<br>");} 
 			
 			echo '</div>';
 
