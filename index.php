@@ -5,7 +5,7 @@ date_default_timezone_set('Europe/Dublin');
 include('db.class.php');
 global $DB;
 
-$_REQUEST['service'] = 'latam.mttnow.com';
+//$_REQUEST['service'] = 'latam.mttnow.com';
 
 //DATABASE
 $GLOBALS['dbserver'] = '127.0.0.1';
@@ -31,7 +31,7 @@ if (empty($_REQUEST['service'])) {
 	
 	$reports = array();
 	$reports['yesterday'] = array('yesterday','today');
-	$reports['last_7_days'] = array('7 days ago 00:00','today');
+	$reports['last_7_days'] = array('3 days ago 00:00','today');
 	$reports['last_28_days'] = array('29 days ago 00:00','today');
 	$reports['last_92_days'] = array('93 days ago 00:00','today');
 	$reports['last_365_days'] = array('366 days ago 00:00','today');
@@ -52,20 +52,20 @@ if (empty($_REQUEST['service'])) {
 			$q = "SELECT * FROM logentries WHERE seconds >= " . date('U', strtotime($v[0])) . " AND seconds <= " . date('U', strtotime($v[1])) . " AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "'";
 			$data = $DB->get_results($q);
 			
-			echo $q . "<br>";
+			//echo $q . "<br>";
 			
 			if (!$data) { echo("Insufficient general data for " . $monitor . " - " . $report . "<br>"); continue;} 
 					
 			$q = "SELECT * FROM logentries WHERE date < '" . date('Y-m-d H:i:s',strtotime($v[0])) . "' AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "' ORDER BY date DESC LIMIT 1";
 			$r = $DB->get_result($q);
 		
-			echo $q . "<br>";
+			//echo $q . "<br>";
 		
 			if (!$r) { echo("Insufficient previous data for " . $monitor . " - " . $report . "<br>"); continue;} 
 				
 			$i = $data[0]->seconds - date('U',strtotime($v[0]));
 			
-			echo $i . "<br>";
+			//echo $i . "<br>";
 		
 			switch($r->type) {
 			
