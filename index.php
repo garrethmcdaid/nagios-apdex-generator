@@ -138,7 +138,7 @@ if (empty($_REQUEST['service'])) {
 			$samples_warning = number_format($total_warning/60,"0",".","")/5;
 			$samples_critical = number_format($total_critical/60,"0",".","")/5;
 			
-			echo '<div style="float;left;width:300px;height:auto;">';
+			echo '<div style="float:left;width:300px;height:auto;">';
 	
 			echo "<b>" . $_REQUEST['service'] . " | " . $monitor . " | " . $v[2] . "</b><br>";
 			
