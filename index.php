@@ -140,7 +140,7 @@ if (empty($_REQUEST['service'])) {
 			
 			echo '<div style="float;left;width:300px;height:auto;">';
 	
-			echo "<b>" . $_REQUEST['service'] . " - " . $monitor . " - " . $v[2] . "</b><br>";
+			echo "<b>" . $_REQUEST['service'] . " | " . $monitor . " | " . $v[2] . "</b><br>";
 			
 			echo "~~~~~~~~~~~~~~~~~~~<br>";
 			
