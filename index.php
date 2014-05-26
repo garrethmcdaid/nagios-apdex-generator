@@ -36,7 +36,7 @@ if (empty($_REQUEST['service'])) {
 	$reports['last_92_days'] = array('93 days ago 00:00','today', 'Last 92 days');
 	$reports['last_365_days'] = array('366 days ago 00:00','today', 'Last year');
 
-	echo "<b>" . $_REQUEST['service'] . "</b><br>";
+	echo "<b>" . $_REQUEST['service'] . "</b><br><br>";
 	
 	foreach ($monitors as $monitor => $v) {
 		
@@ -58,7 +58,7 @@ if (empty($_REQUEST['service'])) {
 			
 			//echo $q . "<br>";
 			
-			echo '<div style="float:left;width:300px;height:auto;">';
+			echo '<div style="float:left;width:240px;height:auto;">';
 								
 			$q = "SELECT * FROM logentries WHERE date < '" . date('Y-m-d H:i:s',strtotime($v[0])) . "' AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "' ORDER BY date DESC LIMIT 1";
 			$r = $DB->get_result($q);
@@ -176,6 +176,8 @@ if (empty($_REQUEST['service'])) {
 			if (!$data) { echo("No data for " . $monitor . " - " . $v[2] . "<br>");} 
 			
 			if (!$r) { echo("Insufficient historical data<br>");} 
+			
+			echo '<br><br>';
 			
 			echo '</div>';
 
