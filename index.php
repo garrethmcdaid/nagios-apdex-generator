@@ -5,8 +5,6 @@ date_default_timezone_set('Europe/Dublin');
 include('db.class.php');
 global $DB;
 
-//$_REQUEST['service'] = 'latam.mttnow.com';
-
 //DATABASE
 $GLOBALS['dbserver'] = '127.0.0.1';
 $GLOBALS['dbname'] = 'nagios';
@@ -25,7 +23,7 @@ foreach ($log as $k => $v) {
 
 
 if (empty($_REQUEST['service'])) {
-	include('form.php');	
+		
 } else {
 
 	
