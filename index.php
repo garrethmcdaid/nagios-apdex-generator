@@ -36,7 +36,7 @@ if (empty($_REQUEST['service'])) {
 	$reports['last_92_days'] = array('93 days ago 00:00','today', 'Last 92 days');
 	$reports['last_365_days'] = array('366 days ago 00:00','today', 'Last year');
 
-	echo "<b>" . $_REQUEST['service'] . "</b><br><br>";
+	echo "<br>";
 	
 	foreach ($monitors as $monitor => $v) {
 		
@@ -173,7 +173,7 @@ if (empty($_REQUEST['service'])) {
 			
 			echo "~~~~~~~~~~~~~~~~~~~<br>";
 			
-			if (!$data) { echo("No data for " . $monitor . " - " . $v[2] . "<br>");} 
+			if (!$data) { echo("No data available<br>");} 
 			
 			if (!$r) { echo("Insufficient historical data<br>");} 
 			
