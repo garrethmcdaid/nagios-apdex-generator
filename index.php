@@ -167,7 +167,15 @@ if (empty($_REQUEST['service'])) {
 			
 			echo "APDEX FORMULA: " . $samples_ok . " + " . "(" . $samples_warning . "/2) / " . $samples . "<br>";
 			
-			echo "<b>APDEX SCORE: " . number_format($apdex,"4",".","") . "</b><br>";
+			if ($apdex < .99) {
+				$cl = 'red';
+			} else if ($apdex < 1) {
+				$cl = 'orange';
+			} else {
+				$cl = 'green';
+			}
+			
+			echo "<b style='color:" . $cl . "'>APDEX SCORE: " . number_format($apdex,"4",".","") . "</b><br>";
 			
 			echo "~~~~~~~~~~~~~~~~~~~<br>";
 			
