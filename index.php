@@ -29,7 +29,7 @@ if (empty($_REQUEST['service'])) {
 	
 	$reports = array();
 	$reports['yesterday'] = array('yesterday','today', 'Yesterday');
-	$reports['last_7_days'] = array('3 days ago 00:00','today', 'Last 7 Days');
+	$reports['last_7_days'] = array('8 days ago 00:00','today', 'Last 7 Days');
 	$reports['last_28_days'] = array('29 days ago 00:00','today', 'Last 28 days');
 	$reports['last_92_days'] = array('93 days ago 00:00','today', 'Last 92 days');
 	$reports['last_365_days'] = array('366 days ago 00:00','today', 'Last year');
