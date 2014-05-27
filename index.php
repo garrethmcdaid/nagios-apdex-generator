@@ -56,7 +56,7 @@ if (empty($_REQUEST['service'])) {
 			
 			//echo $q . "<br>";
 			
-			echo '<div style="float:left;width:240px;height:auto;">';
+			echo '<div style="float:left;width:240px;height:auto;border-bottom:1px solid #3d3d3d;">';
 								
 			$q = "SELECT * FROM logentries WHERE date < '" . date('Y-m-d H:i:s',strtotime($v[0])) . "' AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "' ORDER BY date DESC LIMIT 1";
 			$r = $DB->get_result($q);
