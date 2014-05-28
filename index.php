@@ -51,7 +51,7 @@ if (empty($_REQUEST['service'])) {
 	
 			$samples = number_format($interval/300,"0",".","");
 			
-			$q = "SELECT * FROM logentries WHERE seconds >= " . date('U', strtotime($v[0])) . " AND seconds <= " . date('U', strtotime($v[1])) . " AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "'";
+			$q = "SELECT * FROM logentries WHERE seconds >= " . date('U', strtotime($v[0])) . " AND seconds <= " . date('U', strtotime($v[1])) . " AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "' ORDER BY date";
 			$data = $DB->get_results($q);
 			
 			//echo $q . "<br>";
@@ -116,7 +116,7 @@ if (empty($_REQUEST['service'])) {
 			}
 						
 			$i = date('U',strtotime($v[1])) - end($data)->seconds;
-			
+						
 			switch(end($data)->type) {
 				
 				case "OK":
@@ -130,7 +130,6 @@ if (empty($_REQUEST['service'])) {
 					break;
 				
 			}
-			
 			
 			
 			$samples_ok = number_format($total_ok/60,"0",".","")/5;
