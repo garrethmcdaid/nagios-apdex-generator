@@ -13,7 +13,7 @@ $GLOBALS['dbpass'] = '';
 
 include('header.php');
 
-$q = "SELECT * FROM logentries WHERE date > date_sub(now(), interval 366 day) AND service NOT LIKE '%NOTIFICATION%'";
+$q = "SELECT * FROM logentries WHERE date > date_sub(now(), interval 366 day) AND service NOT LIKE '%NOTIFICATION%' AND service LIKE '%" . $_REQUEST['service'] . "%'";
 $log = $DB->get_results($q);
 $monitors = array();
 
