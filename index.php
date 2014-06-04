@@ -13,7 +13,7 @@ $GLOBALS['dbpass'] = '';
 
 include('header.php');
 
-$q = "SELECT * FROM logentries WHERE date > date_sub(now(), interval 366 day) AND service NOT LIKE '%NOTIFICATION%' AND service LIKE '%" . $_REQUEST['service'] . "%'";
+$q = "SELECT * FROM logentries WHERE date > date_sub(now(), interval 366 day) AND service NOT LIKE '%FLAPPING%' AND service NOT LIKE '%NOTIFICATION%' AND service LIKE '%" . $_REQUEST['service'] . "%'";
 $log = $DB->get_results($q);
 $monitors = array();
 
@@ -51,14 +51,14 @@ if (empty($_REQUEST['service'])) {
 	
 			$samples = number_format($interval/300,"0",".","");
 			
-			$q = "SELECT * FROM logentries WHERE seconds >= " . date('U', strtotime($v[0])) . " AND seconds <= " . date('U', strtotime($v[1])) . " AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "' ORDER BY date";
+			$q = "SELECT * FROM logentries WHERE seconds >= " . date('U', strtotime($v[0])) . " AND seconds <= " . date('U', strtotime($v[1])) . " AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "' AND service NOT LIKE '%FLAPPING%' AND service NOT LIKE '%NOTIFICATION%' ORDER BY date";
 			$data = $DB->get_results($q);
 			
 			//echo $q . "<br>";
 			
 			echo '<div style="float:left;width:240px;height:320px;border-bottom:1px solid #6CC0E5;margin-bottom:14px;">';
 								
-			$q = "SELECT * FROM logentries WHERE date < '" . date('Y-m-d H:i:s',strtotime($v[0])) . "' AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "' ORDER BY date DESC LIMIT 1";
+			$q = "SELECT * FROM logentries WHERE date < '" . date('Y-m-d H:i:s',strtotime($v[0])) . "' AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "' AND service NOT LIKE '%FLAPPING%' AND service NOT LIKE '%NOTIFICATION%' ORDER BY date DESC LIMIT 1";
 			$r = $DB->get_result($q);
 		
 			//echo $q . "<br>";
@@ -94,7 +94,7 @@ if (empty($_REQUEST['service'])) {
 			
 				
 				$i = $vv->seconds - $data[$p]->seconds;
-				//echo "Interval = " . $i . "<br>";
+				//echo $data[$p]->type . " Interval = " . $i . "<br>";
 			
 				switch($data[$p]->type) {
 					
