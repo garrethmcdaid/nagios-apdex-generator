@@ -168,7 +168,7 @@ if (empty($_REQUEST['service'])) {
 			
 			if ($apdex < .99) {
 				$cl = 'red';
-			} else if ($apdex < 1) {
+			} else if ($apdex < .9951) {
 				$cl = 'orange';
 			} else {
 				$cl = 'green';
