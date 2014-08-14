@@ -37,11 +37,17 @@ if (empty($_REQUEST['service'])) {
 	echo "<br>";
 	
 	foreach ($monitors as $monitor => $v) {
+				
+		include('content/' . $_REQUEST['service'] . " " . $monitor . '.html');
 		
+		echo '<div style="border-bottom:1px solid #6cc0e5;margin-bottom:12px;width:1200px;"></div>';
+				
 		echo "<div>";
 	
 		foreach ($reports as $report => $v) {
-		
+			
+
+			
 			//VARS
 			$total_ok = 0;
 			$total_warning = 0;
@@ -56,7 +62,7 @@ if (empty($_REQUEST['service'])) {
 			
 			//echo $q . "<br>";
 			
-			echo '<div style="float:left;width:240px;height:320px;border-bottom:1px solid #6CC0E5;margin-bottom:14px;">';
+			echo '<div style="float:left;width:240px;height:320px;border-bottom:2px solid #6CC0E5;margin-bottom:14px;">';
 								
 			$q = "SELECT * FROM logentries WHERE date < '" . date('Y-m-d H:i:s',strtotime($v[0])) . "' AND service LIKE '%" . $_REQUEST['service'] . "%' AND monitor = '" . $monitor . "' AND service NOT LIKE '%FLAPPING%' AND service NOT LIKE '%NOTIFICATION%' ORDER BY date DESC LIMIT 1";
 			$r = $DB->get_result($q);
@@ -168,7 +174,7 @@ if (empty($_REQUEST['service'])) {
 			
 			if ($apdex < .99) {
 				$cl = 'red';
-			} else if ($apdex < .9951) {
+			} else if ($apdex < 1) {
 				$cl = 'orange';
 			} else {
 				$cl = 'green';
