@@ -146,13 +146,13 @@ if (empty($_REQUEST['service'])) {
 			
 			echo "~~~~~~~~~~~~~~~~~~~<br>";	
 			
-			echo "SAMPLES: " . $samples . "<br>";
+			echo "SAMPLES: " . number_format($samples,"0",".",",") . "<br>";
 			
 			echo "~~~~~~~~~~~~~~~~~~~<br>";
 			
-			echo "SATISFIED SECS: " . $total_ok . "<br>";
-			echo "TOLERATING SECS: " . $total_warning . "<br>";
-			echo "FRUSTRATED SECS: " . $total_critical . "<br>";
+			echo "SATISFIED SECS: " . number_format($total_ok,"0",".",",") . "<br>";
+			echo "TOLERATING SECS: " . number_format($total_warning,"0",".",",") . "<br>";
+			echo "FRUSTRATED SECS: " . number_format($total_critical,"0",".",",") . "<br>";
 			
 			echo "~~~~~~~~~~~~~~~~~~~<br>";
 			
@@ -162,9 +162,9 @@ if (empty($_REQUEST['service'])) {
 			
 			echo "~~~~~~~~~~~~~~~~~~~<br>";
 			
-			echo "SATISFIED SAMPLES: " . $samples_ok . "<br>";
-			echo "TOLERATING SAMPLES: " . $samples_warning . "<br>";
-			echo "FRUSTRATED SAMPLES: " . $samples_critical . "<br>";
+			echo "SATISFIED SAMPLES: " . number_format($samples_ok,"0",".",",") . "<br>";
+			echo "TOLERATING SAMPLES: " . number_format($samples_warning,"0",".",",") . "<br>";
+			echo "FRUSTRATED SAMPLES: " . number_format($samples_critical,"0",".",",") . "<br>";
 			
 			echo "~~~~~~~~~~~~~~~~~~~<br>";
 			
