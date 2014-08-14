@@ -170,7 +170,7 @@ if (empty($_REQUEST['service'])) {
 			
 			$apdex = ($samples_ok + ($samples_warning/2))/$samples;
 			
-			echo "APDEX FORMULA: " . $samples_ok . " + " . "(" . $samples_warning . "/2) / " . $samples . "<br>";
+			echo "FORMULA: " . $samples_ok . " + " . "(" . $samples_warning . "/2) / " . $samples . "<br>";
 			
 			if ($apdex < .99) {
 				$cl = 'red';
