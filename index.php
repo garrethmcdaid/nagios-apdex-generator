@@ -172,9 +172,9 @@ if (empty($_REQUEST['service'])) {
 			
 			echo "FORMULA: " . $samples_ok . " + " . "(" . $samples_warning . "/2) / " . $samples . "<br>";
 			
-			if ($apdex < .99) {
+			if ($apdex < .95) {
 				$cl = 'red';
-			} else if ($apdex < .995) {
+			} else if ($apdex < .98) {
 				$cl = 'orange';
 			} else {
 				$cl = 'green';
